@@ -4,7 +4,7 @@ default: pb.l pb.y
 	cc -g -o plumber ../voter/vote_buff.c ../src/commtypes.c plumbing.c pb.tab.c lex.yy.c -lfl
 
 copy:
-	cp plumber ../../stage/experiments/
+	cp plumber ../../Stage/experiments/
 
 clean:
 	rm -rf plumber

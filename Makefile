@@ -10,7 +10,7 @@ regular: libs
 
 libs:
 	make -C ./tas_lib
-	make -C ./player_translator_driver/build
+#	make -C ./player_translator_driver/build
 
 install: regular
 	make -C ./controllers copy

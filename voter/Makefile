@@ -17,8 +17,8 @@ test: test_buff.o vote_buff.c
 	gcc -g -o testBuff test_buff.o vote_buff.c $(INC) $(LIB)
 
 copy:
-	cp VoterD ../../stage/experiments/
-	cp VoterD_R ../../stage/experiments/
+	cp VoterD ../../Stage/experiments/
+	cp VoterD_R ../../Stage/experiments/
 
 clean:
 	rm -f *.o

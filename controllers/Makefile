@@ -32,20 +32,20 @@ Mapper: mapper.o mapping.c $(SRC) $(DEP) ./inc/*.h
 	gcc $(FLAGS) -o Mapper mapper.o mapping.c $(SRC) $(INC) $(LIB) -lm
 
 Load: load.o $(SRC) $(DEP)
-	gcc -O3 -Werror -L"~/research/ccv/lib" -I"~/research/ccv/lib" -o Load load.o $(SRC) $(INC) $(LIB) -lccv `cat ~/research/ccv/lib/.deps`
+	gcc -O3 -Werror -L"~/Documents/Senior_Design/code/ccv/lib" -I"~/Documents/Senior_Design/code/ccv/lib" -o Load load.o $(SRC) $(INC) $(LIB) -lccv `cat ~/Documents/Senior_Design/code/ccv/lib/.deps`
 
 GenericEmpty: generic_empty.o $(SRC) $(DEP)
 	gcc $(FLAGS) -o Empty generic_empty.o $(SRC) $(INC) $(LIB) 
 
 copy:
-	cp ArtPot ../../stage/experiments/
-	cp AStar ../../stage/experiments/
-	cp BenchMarker ../../stage/experiments/
-	cp Empty ../../stage/experiments/
-	cp Filter ../../stage/experiments/
-	cp Logger ../../stage/experiments/
-	cp Mapper ../../stage/experiments/
-	cp Load ../../stage/experiments/
+	cp ArtPot ../../Stage/experiments/
+	cp AStar ../../Stage/experiments/
+	cp BenchMarker ../../Stage/experiments/
+	cp Empty ../../Stage/experiments/
+	cp Filter ../../Stage/experiments/
+	cp Logger ../../Stage/experiments/
+	cp Mapper ../../Stage/experiments/
+	cp Load ../../Stage/experiments/
 
 clean:
 	rm -f *.o

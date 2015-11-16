@@ -1,0 +1,1622 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGV_REQ	src/replicas.c	10;"	d	file:
+ASSIGN	plumber/pb.tab.c	/^    ASSIGN = 267,$/;"	e	enum:yytokentype	file:
+ASSIGN	plumber/pb.tab.h	/^    ASSIGN = 267,$/;"	e	enum:yytokentype
+BEGIN	plumber/lex.yy.c	125;"	d	file:
+BENCH	plumber/pb.tab.c	/^    BENCH = 258,$/;"	e	enum:yytokentype	file:
+BENCH	plumber/pb.tab.h	/^    BENCH = 258,$/;"	e	enum:yytokentype
+C	include/ccv.h	/^	double C; \/**< C in SVM. *\/$/;"	m	struct:__anon61
+C	include/ccv.h	/^	double C; \/**< The C parameter to train the weak linear SVM classifier. *\/$/;"	m	struct:__anon89
+CCV_32F	include/ccv.h	/^	CCV_32F = 0x04000,$/;"	e	enum:__anon3
+CCV_32S	include/ccv.h	/^	CCV_32S = 0x02000,$/;"	e	enum:__anon3
+CCV_64F	include/ccv.h	/^	CCV_64F = 0x10000,$/;"	e	enum:__anon3
+CCV_64S	include/ccv.h	/^	CCV_64S = 0x08000,$/;"	e	enum:__anon3
+CCV_8U	include/ccv.h	/^	CCV_8U  = 0x01000,$/;"	e	enum:__anon3
+CCV_ALL_DATA_TYPE	include/ccv.h	64;"	d
+CCV_A_TRANSPOSE	include/ccv.h	/^	CCV_A_TRANSPOSE = 0x01,$/;"	e	enum:__anon27
+CCV_BBF_FLOAT_OPT	include/ccv.h	/^	CCV_BBF_FLOAT_OPT = 0x02,$/;"	e	enum:__anon66
+CCV_BBF_GENETIC_OPT	include/ccv.h	/^	CCV_BBF_GENETIC_OPT = 0x01,$/;"	e	enum:__anon66
+CCV_BBF_NO_NESTED	include/ccv.h	/^	CCV_BBF_NO_NESTED = 0x10000000,$/;"	e	enum:__anon69
+CCV_BBF_POINT_MAX	include/ccv.h	1544;"	d
+CCV_BBF_POINT_MIN	include/ccv.h	1545;"	d
+CCV_BRIGHT_TO_DARK	include/ccv.h	/^	CCV_BRIGHT_TO_DARK = -1,$/;"	e	enum:__anon50
+CCV_B_TRANSPOSE	include/ccv.h	/^	CCV_B_TRANSPOSE = 0X02,$/;"	e	enum:__anon27
+CCV_C1	include/ccv.h	/^	CCV_C1 = 0x001,$/;"	e	enum:__anon4
+CCV_C2	include/ccv.h	/^	CCV_C2 = 0x002,$/;"	e	enum:__anon4
+CCV_C3	include/ccv.h	/^	CCV_C3 = 0x003,$/;"	e	enum:__anon4
+CCV_C4	include/ccv.h	/^	CCV_C4 = 0x004,$/;"	e	enum:__anon4
+CCV_CATEGORIZED_DENSE_MATRIX	include/ccv.h	/^	CCV_CATEGORIZED_DENSE_MATRIX = 0x01,$/;"	e	enum:__anon92
+CCV_CATEGORIZED_FILE	include/ccv.h	/^	CCV_CATEGORIZED_FILE = 0x02,$/;"	e	enum:__anon92
+CCV_CLI_ERROR	include/ccv.h	/^	CCV_CLI_ERROR = 1 << 2,$/;"	e	enum:__anon112
+CCV_CLI_INFO	include/ccv.h	/^	CCV_CLI_INFO = 1 << 1,$/;"	e	enum:__anon112
+CCV_CLI_NONE	include/ccv.h	/^	CCV_CLI_NONE = 0,$/;"	e	enum:__anon112
+CCV_CLI_OUTPUT_LEVEL_IS	include/ccv.h	2315;"	d
+CCV_CLI_VERBOSE	include/ccv.h	/^	CCV_CLI_VERBOSE = 1,$/;"	e	enum:__anon112
+CCV_CONVNET_AVERAGE_POOL	include/ccv.h	/^	CCV_CONVNET_AVERAGE_POOL = 0x04,$/;"	e	enum:__anon95
+CCV_CONVNET_CONVOLUTIONAL	include/ccv.h	/^	CCV_CONVNET_CONVOLUTIONAL = 0x01,$/;"	e	enum:__anon95
+CCV_CONVNET_FULL_CONNECT	include/ccv.h	/^	CCV_CONVNET_FULL_CONNECT = 0x02,$/;"	e	enum:__anon95
+CCV_CONVNET_LOCAL_RESPONSE_NORM	include/ccv.h	/^	CCV_CONVNET_LOCAL_RESPONSE_NORM = 0x05,$/;"	e	enum:__anon95
+CCV_CONVNET_MAX_POOL	include/ccv.h	/^	CCV_CONVNET_MAX_POOL = 0x03,$/;"	e	enum:__anon95
+CCV_C_TRANSPOSE	include/ccv.h	/^	CCV_C_TRANSPOSE = 0X04,$/;"	e	enum:__anon27
+CCV_DAISY_NORMAL_FULL	include/ccv.h	/^	CCV_DAISY_NORMAL_FULL    = 0x02,$/;"	e	enum:__anon42
+CCV_DAISY_NORMAL_PARTIAL	include/ccv.h	/^	CCV_DAISY_NORMAL_PARTIAL = 0x01,$/;"	e	enum:__anon42
+CCV_DAISY_NORMAL_SIFT	include/ccv.h	/^	CCV_DAISY_NORMAL_SIFT    = 0x03,$/;"	e	enum:__anon42
+CCV_DARK_TO_BRIGHT	include/ccv.h	/^	CCV_DARK_TO_BRIGHT = 1,$/;"	e	enum:__anon50
+CCV_DEFAULT_CACHE_SIZE	include/ccv.h	338;"	d
+CCV_DENSE_VECTOR	include/ccv.h	/^	CCV_DENSE_VECTOR  = 0x02000000,$/;"	e	enum:__anon10
+CCV_DPM_NO_NESTED	include/ccv.h	/^	CCV_DPM_NO_NESTED = 0x10000000,$/;"	e	enum:__anon62
+CCV_DPM_PART_MAX	include/ccv.h	1425;"	d
+CCV_FLIP_X	include/ccv.h	/^	CCV_FLIP_X = 0x01,$/;"	e	enum:__anon37
+CCV_FLIP_Y	include/ccv.h	/^	CCV_FLIP_Y = 0x02,$/;"	e	enum:__anon37
+CCV_GARBAGE	include/ccv.h	/^	CCV_GARBAGE       = 0x80000000, \/\/ matrix is in cache (not used by any functions)$/;"	e	enum:__anon6
+CCV_GET_CHANNEL	include/ccv.h	63;"	d
+CCV_GET_DATA_TYPE	include/ccv.h	60;"	d
+CCV_GET_DATA_TYPE_SIZE	include/ccv.h	61;"	d
+CCV_GET_SPARSE_PRIME	include/ccv.h	147;"	d
+CCV_GSEDT	include/ccv.h	/^	CCV_GSEDT    = 0x04, \/\/ Generalized Squared Euclidean Distance Transform:$/;"	e	enum:__anon24
+CCV_ICF_CLASSIFIER_TYPE_A	include/ccv.h	/^	CCV_ICF_CLASSIFIER_TYPE_A = 0x1,$/;"	e	enum:__anon76
+CCV_ICF_CLASSIFIER_TYPE_B	include/ccv.h	/^	CCV_ICF_CLASSIFIER_TYPE_B = 0x2,$/;"	e	enum:__anon76
+CCV_ICF_SAT_MAX	include/ccv.h	1812;"	d
+CCV_INTER_AREA	include/ccv.h	/^	CCV_INTER_AREA    = 0x01,$/;"	e	enum:__anon39
+CCV_INTER_CUBIC	include/ccv.h	/^	CCV_INTER_CUBIC   = 0X04,$/;"	e	enum:__anon39
+CCV_INTER_LANCZOS	include/ccv.h	/^	CCV_INTER_LANCZOS = 0X08,$/;"	e	enum:__anon39
+CCV_INTER_LINEAR	include/ccv.h	/^	CCV_INTER_LINEAR  = 0X02,$/;"	e	enum:__anon39
+CCV_IO_ABGR_RAW	include/ccv.h	/^	CCV_IO_ABGR_RAW       = 0x046,$/;"	e	enum:__anon22
+CCV_IO_ANY_FILE	include/ccv.h	/^	CCV_IO_ANY_FILE       = 0x020,$/;"	e	enum:__anon22
+CCV_IO_ANY_RAW	include/ccv.h	/^	CCV_IO_ANY_RAW        = 0x040,$/;"	e	enum:__anon22
+CCV_IO_ANY_STREAM	include/ccv.h	/^	CCV_IO_ANY_STREAM     = 0x010,$/;"	e	enum:__anon22
+CCV_IO_ARGB_RAW	include/ccv.h	/^	CCV_IO_ARGB_RAW       = 0x043,$/;"	e	enum:__anon22
+CCV_IO_ATTEMPTED	include/ccv.h	/^	CCV_IO_ATTEMPTED,$/;"	e	enum:__anon23
+CCV_IO_BGRA_RAW	include/ccv.h	/^	CCV_IO_BGRA_RAW       = 0x045,$/;"	e	enum:__anon22
+CCV_IO_BGR_RAW	include/ccv.h	/^	CCV_IO_BGR_RAW        = 0x044,$/;"	e	enum:__anon22
+CCV_IO_BINARY_FILE	include/ccv.h	/^	CCV_IO_BINARY_FILE    = 0x024,$/;"	e	enum:__anon22
+CCV_IO_BMP_FILE	include/ccv.h	/^	CCV_IO_BMP_FILE       = 0x021,$/;"	e	enum:__anon22
+CCV_IO_BMP_STREAM	include/ccv.h	/^	CCV_IO_BMP_STREAM     = 0x011,$/;"	e	enum:__anon22
+CCV_IO_CONTINUE	include/ccv.h	/^	CCV_IO_CONTINUE,$/;"	e	enum:__anon23
+CCV_IO_DEFLATE_STREAM	include/ccv.h	/^	CCV_IO_DEFLATE_STREAM = 0x015,$/;"	e	enum:__anon22
+CCV_IO_ERROR	include/ccv.h	/^	CCV_IO_ERROR,$/;"	e	enum:__anon23
+CCV_IO_FINAL	include/ccv.h	/^	CCV_IO_FINAL = 0x00,$/;"	e	enum:__anon23
+CCV_IO_GRAY	include/ccv.h	/^	CCV_IO_GRAY      = 0x100,$/;"	e	enum:__anon20
+CCV_IO_GRAY_RAW	include/ccv.h	/^	CCV_IO_GRAY_RAW       = 0x047,$/;"	e	enum:__anon22
+CCV_IO_JPEG_FILE	include/ccv.h	/^	CCV_IO_JPEG_FILE      = 0x022,$/;"	e	enum:__anon22
+CCV_IO_JPEG_STREAM	include/ccv.h	/^	CCV_IO_JPEG_STREAM    = 0x012,$/;"	e	enum:__anon22
+CCV_IO_NO_COPY	include/ccv.h	/^	CCV_IO_NO_COPY = 0x10000,$/;"	e	enum:__anon21
+CCV_IO_PLAIN_STREAM	include/ccv.h	/^	CCV_IO_PLAIN_STREAM   = 0x014,$/;"	e	enum:__anon22
+CCV_IO_PNG_FILE	include/ccv.h	/^	CCV_IO_PNG_FILE       = 0x023,$/;"	e	enum:__anon22
+CCV_IO_PNG_STREAM	include/ccv.h	/^	CCV_IO_PNG_STREAM     = 0x013,$/;"	e	enum:__anon22
+CCV_IO_RGBA_RAW	include/ccv.h	/^	CCV_IO_RGBA_RAW       = 0x042,$/;"	e	enum:__anon22
+CCV_IO_RGB_COLOR	include/ccv.h	/^	CCV_IO_RGB_COLOR = 0x300,$/;"	e	enum:__anon20
+CCV_IO_RGB_RAW	include/ccv.h	/^	CCV_IO_RGB_RAW        = 0x041,$/;"	e	enum:__anon22
+CCV_IO_UNKNOWN	include/ccv.h	/^	CCV_IO_UNKNOWN,$/;"	e	enum:__anon23
+CCV_L1_NORM	include/ccv.h	/^	CCV_L1_NORM  = 0x01, \/\/ |dx| + |dy|$/;"	e	enum:__anon24
+CCV_L2_NORM	include/ccv.h	/^	CCV_L2_NORM  = 0x02, \/\/ sqrt(dx^2 + dy^2)$/;"	e	enum:__anon24
+CCV_MATRIX_CSC	include/ccv.h	/^	CCV_MATRIX_CSC    = 0x0800000,$/;"	e	enum:__anon5
+CCV_MATRIX_CSR	include/ccv.h	/^	CCV_MATRIX_CSR    = 0x0400000,$/;"	e	enum:__anon5
+CCV_MATRIX_DENSE	include/ccv.h	/^	CCV_MATRIX_DENSE  = 0x0100000,$/;"	e	enum:__anon5
+CCV_MATRIX_SPARSE	include/ccv.h	/^	CCV_MATRIX_SPARSE = 0x0200000,$/;"	e	enum:__anon5
+CCV_MAX_CHANNEL	include/ccv.h	62;"	d
+CCV_NEGATIVE	include/ccv.h	/^	CCV_NEGATIVE = 0x08, \/\/ negative distance computation (from positive (min) to negative (max))$/;"	e	enum:__anon24
+CCV_NO_DATA_ALLOC	include/ccv.h	/^	CCV_NO_DATA_ALLOC = 0x10000000, \/\/ matrix is allocated as header only, but with no data section, therefore, you have to free the data section separately$/;"	e	enum:__anon6
+CCV_NO_PADDING	include/ccv.h	/^	CCV_NO_PADDING = 0x00,$/;"	e	enum:__anon25
+CCV_PADDING_EXTEND	include/ccv.h	/^	CCV_PADDING_EXTEND = 0x02,$/;"	e	enum:__anon25
+CCV_PADDING_MIRROR	include/ccv.h	/^	CCV_PADDING_MIRROR = 0x04,$/;"	e	enum:__anon25
+CCV_PADDING_ZERO	include/ccv.h	/^	CCV_PADDING_ZERO = 0x01,$/;"	e	enum:__anon25
+CCV_PI	include/ccv.h	23;"	d
+CCV_POSITIVE	include/ccv.h	/^	CCV_POSITIVE = 0x00, \/\/ positive distance computation (the default)$/;"	e	enum:__anon24
+CCV_REUSABLE	include/ccv.h	/^	CCV_REUSABLE      = 0x40000000, \/\/ matrix can be recycled$/;"	e	enum:__anon6
+CCV_RGB_TO_YUV	include/ccv.h	/^	CCV_RGB_TO_YUV = 0x01,$/;"	e	enum:__anon38
+CCV_SCD_STUMP_FEATURE	include/ccv.h	/^	CCV_SCD_STUMP_FEATURE = 0x01,$/;"	e	enum:__anon84
+CCV_SCD_TREE_FEATURE	include/ccv.h	/^	CCV_SCD_TREE_FEATURE = 0x02,$/;"	e	enum:__anon84
+CCV_SIGNED	include/ccv.h	/^	CCV_SIGNED = 0x00,$/;"	e	enum:__anon26
+CCV_SPARSE_COL_MAJOR	include/ccv.h	/^	CCV_SPARSE_COL_MAJOR = 0x01,$/;"	e	enum:__anon11
+CCV_SPARSE_ROW_MAJOR	include/ccv.h	/^	CCV_SPARSE_ROW_MAJOR = 0x00,$/;"	e	enum:__anon11
+CCV_SPARSE_VECTOR	include/ccv.h	/^	CCV_SPARSE_VECTOR = 0x01000000,$/;"	e	enum:__anon10
+CCV_UNMANAGED	include/ccv.h	/^	CCV_UNMANAGED     = 0x20000000, \/\/ matrix is allocated by user, therefore, cannot be freed by ccv_matrix_free\/ccv_matrix_free_immediately$/;"	e	enum:__anon6
+CCV_UNSIGNED	include/ccv.h	/^	CCV_UNSIGNED = 0x01,$/;"	e	enum:__anon26
+CCV_WARN_UNUSED	include/ccv.h	41;"	d
+CFE_SIM_SIGNAL	include/controller.h	11;"	d
+COMM_ACK	include/commtypes.h	/^  COMM_ACK,$/;"	e	enum:__anon2
+COMM_ERROR	include/commtypes.h	/^  COMM_ERROR,$/;"	e	enum:__anon2
+CPU_ERROR_BIND	tas_lib/inc/cpu.h	/^    CPU_ERROR_BIND,              \/\/\/< A failure to bind the process to the cpu.$/;"	e	enum:__anon1
+CPU_ERROR_NOEXIST	tas_lib/inc/cpu.h	/^    CPU_ERROR_NOEXIST            \/\/\/< A failure to find the requested cpu.$/;"	e	enum:__anon1
+CPU_ERROR_NONE	tas_lib/inc/cpu.h	/^    CPU_ERROR_NONE,              \/\/\/< Operation completed successfully.$/;"	e	enum:__anon1
+CPU_ERROR_OPEN	tas_lib/inc/cpu.h	/^    CPU_ERROR_OPEN,              \/\/\/< A failure to open cpu info through the os.$/;"	e	enum:__anon1
+CPU_ERROR_READ	tas_lib/inc/cpu.h	/^    CPU_ERROR_READ,              \/\/\/< A failure to read cpu info from the os.$/;"	e	enum:__anon1
+DEBUG_PRINT	include/bench_config.h	16;"	d
+DEFAULT_CPU	tas_lib/inc/cpu.h	17;"	d
+DELIM	plumber/pb.tab.c	/^    DELIM = 268,$/;"	e	enum:yytokentype	file:
+DELIM	plumber/pb.tab.h	/^    DELIM = 268,$/;"	e	enum:yytokentype
+DEP	controllers/Makefile	/^DEP=..\/include\/*.h ..\/tas_lib\/inc\/*.h$/;"	m
+DIST_EPSILON	controllers/art_pot.c	15;"	d	file:
+DIST_EPSILON	controllers/art_pot.c	24;"	d	file:
+DMR	include/vote_buff.h	/^typedef enum {NONE, RSMR, SMR, DMR, TMR, REP_TYPE_ERROR} replication_t;$/;"	e	enum:__anon113
+DoOneUpdate	player_translator_driver/translator_driver.cc	/^void TranslatorDriver::DoOneUpdate() {$/;"	f	class:TranslatorDriver
+ECHO	plumber/lex.yy.c	583;"	d	file:
+END_PIPE	plumber/pb.tab.c	/^    END_PIPE = 264,$/;"	e	enum:yytokentype	file:
+END_PIPE	plumber/pb.tab.h	/^    END_PIPE = 264,$/;"	e	enum:yytokentype
+END_VOTE	plumber/pb.tab.c	/^    END_VOTE = 266,$/;"	e	enum:yytokentype	file:
+END_VOTE	plumber/pb.tab.h	/^    END_VOTE = 266,$/;"	e	enum:yytokentype
+EOB_ACT_CONTINUE_SCAN	plumber/lex.yy.c	168;"	d	file:
+EOB_ACT_END_OF_FILE	plumber/lex.yy.c	169;"	d	file:
+EOB_ACT_LAST_MATCH	plumber/lex.yy.c	170;"	d	file:
+EOL	plumber/pb.tab.c	/^    EOL = 272$/;"	e	enum:yytokentype	file:
+EOL	plumber/pb.tab.h	/^    EOL = 272$/;"	e	enum:yytokentype
+EXIT_SUCCESS	plumber/pb.tab.c	288;"	d	file:
+EXIT_SUCCESS	plumber/pb.tab.c	316;"	d	file:
+FLAGS	controllers/Makefile	/^FLAGS=-O3 -Werror -static$/;"	m
+FLAGS	voter/Makefile	/^FLAGS=-O3 -Werror -static$/;"	m
+FLEXINT_H	plumber/lex.yy.c	29;"	d	file:
+FLEX_BETA	plumber/lex.yy.c	13;"	d	file:
+FLEX_SCANNER	plumber/lex.yy.c	8;"	d	file:
+GOAL_EXTENT	controllers/art_pot.c	17;"	d	file:
+GOAL_EXTENT	controllers/art_pot.c	26;"	d	file:
+GOAL_RADIUS	controllers/art_pot.c	16;"	d	file:
+GOAL_RADIUS	controllers/art_pot.c	25;"	d	file:
+GOAL_SCALE	controllers/art_pot.c	18;"	d	file:
+GOAL_SCALE	controllers/art_pot.c	27;"	d	file:
+GOAL_X	controllers/logger.c	12;"	d	file:
+GOAL_Y	controllers/logger.c	13;"	d	file:
+GRID_NUM	controllers/inc/mapping.h	5;"	d
+GUARD_ccv_h	include/ccv.h	7;"	d
+INC	controllers/Makefile	/^INC=-I..\/include\/ -I..\/tas_lib\/inc\/$/;"	m
+INC	test/Makefile	/^INC=-I..\/include\/$/;"	m
+INC	test/micro_test/Makefile	/^INC=-I..\/..\/include -I..\/..\/tas_lib\/inc$/;"	m
+INC	voter/Makefile	/^INC=-I..\/include\/ -I..\/tas_lib\/inc\/$/;"	m
+INDEX_A	include/commtypes.h	38;"	d
+INDEX_X	include/commtypes.h	36;"	d
+INDEX_Y	include/commtypes.h	37;"	d
+INITIAL	plumber/lex.yy.c	491;"	d	file:
+INT16_MAX	plumber/lex.yy.c	71;"	d	file:
+INT16_MIN	plumber/lex.yy.c	62;"	d	file:
+INT32_MAX	plumber/lex.yy.c	74;"	d	file:
+INT32_MIN	plumber/lex.yy.c	65;"	d	file:
+INT8_MAX	plumber/lex.yy.c	68;"	d	file:
+INT8_MIN	plumber/lex.yy.c	59;"	d	file:
+IPC_SIZE	include/bench_config.h	12;"	d
+InitTAS	tas_lib/taslimited.c	/^int InitTAS(cpu_id_t cpu, int priority) {$/;"	f
+LIB	controllers/Makefile	/^LIB=-lrt -lTASLimited$/;"	m
+LIB	voter/Makefile	/^LIB=-lrt -lTASLimited$/;"	m
+MAP_SIZE	controllers/inc/mapping.h	6;"	d
+MAP_UPDATE	include/commtypes.h	/^  MAP_UPDATE,$/;"	e	enum:__anon2
+MAX_TYPED_PIPE_BUFF	src/commtypes.c	6;"	d	file:
+MAX_TYPED_PIPE_BUFF	test/test.h	6;"	d
+MAX_VOTE_PIPE_BUFF	include/vote_buff.h	19;"	d
+MESSAGE_T	include/commtypes.h	/^static const char* MESSAGE_T[] = {"COMM_ERROR", "WAY_REQ", "WAY_RES", "MOV_CMD", "RANGE_POSE_DATA", "MAP_UPDATE", "COMM_ACK", "MSG_BUFFER"};$/;"	v
+MOV_CMD	include/commtypes.h	/^  MOV_CMD,$/;"	e	enum:__anon2
+MSG_BUFFER	include/commtypes.h	/^  MSG_BUFFER,$/;"	e	enum:__anon2
+Main	player_translator_driver/translator_driver.cc	/^void TranslatorDriver::Main() {$/;"	f	class:TranslatorDriver
+MainSetup	player_translator_driver/translator_driver.cc	/^int TranslatorDriver::MainSetup() {   $/;"	f	class:TranslatorDriver
+MainShutdown	player_translator_driver/translator_driver.cc	/^int TranslatorDriver::MainShutdown() {$/;"	f	class:TranslatorDriver
+NAMED_OB	plumber/pb.tab.c	/^    NAMED_OB = 270,$/;"	e	enum:yytokentype	file:
+NAMED_OB	plumber/pb.tab.h	/^    NAMED_OB = 270,$/;"	e	enum:yytokentype
+NONE	include/vote_buff.h	/^typedef enum {NONE, RSMR, SMR, DMR, TMR, REP_TYPE_ERROR} replication_t;$/;"	e	enum:__anon113
+NUMBER_VAL	plumber/pb.tab.c	/^    NUMBER_VAL = 271,$/;"	e	enum:yytokentype	file:
+NUMBER_VAL	plumber/pb.tab.h	/^    NUMBER_VAL = 271,$/;"	e	enum:yytokentype
+OBST_EXTENT	controllers/art_pot.c	20;"	d	file:
+OBST_EXTENT	controllers/art_pot.c	29;"	d	file:
+OBST_RADIUS	controllers/art_pot.c	19;"	d	file:
+OBST_RADIUS	controllers/art_pot.c	28;"	d	file:
+OBST_SCALE	controllers/art_pot.c	21;"	d	file:
+OBST_SCALE	controllers/art_pot.c	30;"	d	file:
+OBS_THRES	controllers/mapper.c	13;"	d	file:
+OFFSET_X	controllers/inc/mapping.h	7;"	d
+OFFSET_Y	controllers/inc/mapping.h	8;"	d
+PERIOD_NSEC	voter/voterd.c	22;"	d	file:
+PERIOD_NSEC	voter/voterd_r.c	22;"	d	file:
+PIPE_COUNT	controllers/a_star.c	12;"	d	file:
+PIPE_COUNT	controllers/art_pot.c	33;"	d	file:
+PIPE_COUNT	controllers/empty.c	10;"	d	file:
+PIPE_COUNT	controllers/filter.c	12;"	d	file:
+PIPE_COUNT	controllers/generic_empty.c	9;"	d	file:
+PIPE_COUNT	controllers/load.c	16;"	d	file:
+PIPE_COUNT	controllers/logger.c	14;"	d	file:
+PIPE_COUNT	controllers/mapper.c	12;"	d	file:
+PIPE_FILL_SIZE	include/bench_config.h	8;"	d
+PIPE_LIMIT	include/vote_buff.h	21;"	d
+PIPE_SMASH	include/bench_config.h	5;"	d
+PLAYERC	stage_control/Makefile	/^PLAYERC=$(RESEARCH)\/player-3.0.2$/;"	m
+PRINT_REG	fault_injection/print_registers.h	1;"	d
+P_DMR	plumber/pb.tab.c	/^    P_DMR = 261,$/;"	e	enum:yytokentype	file:
+P_DMR	plumber/pb.tab.h	/^    P_DMR = 261,$/;"	e	enum:yytokentype
+P_RSMR	plumber/pb.tab.c	/^    P_RSMR = 259,$/;"	e	enum:yytokentype	file:
+P_RSMR	plumber/pb.tab.h	/^    P_RSMR = 259,$/;"	e	enum:yytokentype
+P_SMR	plumber/pb.tab.c	/^    P_SMR = 260,$/;"	e	enum:yytokentype	file:
+P_SMR	plumber/pb.tab.h	/^    P_SMR = 260,$/;"	e	enum:yytokentype
+P_TMR	plumber/pb.tab.c	/^    P_TMR = 262,$/;"	e	enum:yytokentype	file:
+P_TMR	plumber/pb.tab.h	/^    P_TMR = 262,$/;"	e	enum:yytokentype
+ProcessCommand	player_translator_driver/translator_driver.cc	/^void TranslatorDriver::ProcessCommand(player_position2d_cmd_pos_t &cmd) {$/;"	f	class:TranslatorDriver
+ProcessMessage	player_translator_driver/translator_driver.cc	/^int TranslatorDriver::ProcessMessage(QueuePointer & resp_queue, $/;"	f	class:TranslatorDriver
+ProcessOdom	player_translator_driver/translator_driver.cc	/^void TranslatorDriver::ProcessOdom(player_position2d_data_t &data)$/;"	f	class:TranslatorDriver
+ProcessRanger	player_translator_driver/translator_driver.cc	/^void TranslatorDriver::ProcessRanger(player_ranger_data_range_t &data)$/;"	f	class:TranslatorDriver
+PutCommand	player_translator_driver/translator_driver.cc	/^void TranslatorDriver::PutCommand(double cmd_speed, double cmd_turnrate)$/;"	f	class:TranslatorDriver
+RANGER_COUNT	include/commtypes.h	19;"	d
+RANGE_COUNT	controllers/mapper.c	11;"	d	file:
+RANGE_POSE_DATA	include/commtypes.h	/^  RANGE_POSE_DATA,$/;"	e	enum:__anon2
+REJECT	plumber/lex.yy.c	479;"	d	file:
+REP_MAX	voter/voterd.c	21;"	d	file:
+REP_MAX	voter/voterd_r.c	21;"	d	file:
+REP_TYPE_ERROR	include/vote_buff.h	/^typedef enum {NONE, RSMR, SMR, DMR, TMR, REP_TYPE_ERROR} replication_t;$/;"	e	enum:__anon113
+REP_TYPE_T	include/vote_buff.h	/^static const char* REP_TYPE_T[] = {"NONE", "RSMR", "SMR", "DMR", "TMR", "REP_TYPE_ERROR"};$/;"	v
+RESEARCH	stage_control/Makefile	/^RESEARCH=\/home\/Documents\/Senior_Design$/;"	m
+RESTART_SIGNAL	include/controller.h	9;"	d
+RSMR	include/vote_buff.h	/^typedef enum {NONE, RSMR, SMR, DMR, TMR, REP_TYPE_ERROR} replication_t;$/;"	e	enum:__anon113
+R_INC	stage_control/Makefile	/^R_INC=-I$(PLAYERC)\/ -I$(PLAYERC)\/client_libs\/ -I$(PLAYERC)\/build\/$/;"	m
+SDC_SIM_SIGNAL	include/controller.h	10;"	d
+SMR	include/vote_buff.h	/^typedef enum {NONE, RSMR, SMR, DMR, TMR, REP_TYPE_ERROR} replication_t;$/;"	e	enum:__anon113
+SRC	controllers/Makefile	/^SRC=..\/src\/commtypes.c ..\/src\/fd_client.c ..\/src\/controller.c$/;"	m
+SRC	test/Makefile	/^SRC=..\/src\/commtypes.c ..\/src\/replicas.c ..\/src\/fd_server.c ..\/voter\/vote_buff.c$/;"	m
+SRC	test/micro_test/Makefile	/^SRC=..\/..\/src\/commtypes.c ..\/..\/src\/replicas.c ..\/..\/src\/fd_server.c ..\/..\/voter\/vote_buff.c$/;"	m
+START_PIPE	plumber/pb.tab.c	/^    START_PIPE = 263,$/;"	e	enum:yytokentype	file:
+START_PIPE	plumber/pb.tab.h	/^    START_PIPE = 263,$/;"	e	enum:yytokentype
+START_VOTE	plumber/pb.tab.c	/^    START_VOTE = 265,$/;"	e	enum:yytokentype	file:
+START_VOTE	plumber/pb.tab.h	/^    START_VOTE = 265,$/;"	e	enum:yytokentype
+SendWaypoints	player_translator_driver/translator_driver.cc	/^void TranslatorDriver::SendWaypoints() {$/;"	f	class:TranslatorDriver
+SetupOdom	player_translator_driver/translator_driver.cc	/^int TranslatorDriver::SetupOdom()$/;"	f	class:TranslatorDriver
+SetupRanger	player_translator_driver/translator_driver.cc	/^int TranslatorDriver::SetupRanger()$/;"	f	class:TranslatorDriver
+ShutdownOdom	player_translator_driver/translator_driver.cc	/^int TranslatorDriver::ShutdownOdom()$/;"	f	class:TranslatorDriver
+ShutdownRanger	player_translator_driver/translator_driver.cc	/^int TranslatorDriver::ShutdownRanger()$/;"	f	class:TranslatorDriver
+TIMEOUT_SIGNAL	include/controller.h	8;"	d
+TIME_RESTART_REPLICA	include/bench_config.h	4;"	d
+TMR	include/vote_buff.h	/^typedef enum {NONE, RSMR, SMR, DMR, TMR, REP_TYPE_ERROR} replication_t;$/;"	e	enum:__anon113
+TranslatorDriver	player_translator_driver/translator_driver.cc	/^TranslatorDriver::TranslatorDriver(ConfigFile* cf, int section)$/;"	f	class:TranslatorDriver
+TranslatorDriver	player_translator_driver/translator_driver.cc	/^class TranslatorDriver : public ThreadedDriver {$/;"	c	file:
+TranslatorDriver_Init	player_translator_driver/translator_driver.cc	/^Driver* TranslatorDriver_Init(ConfigFile* cf, int section) {$/;"	f
+TranslatorDriver_Register	player_translator_driver/translator_driver.cc	/^void TranslatorDriver_Register(DriverTable* table) {$/;"	f
+UINT16_MAX	plumber/lex.yy.c	80;"	d	file:
+UINT32_MAX	plumber/lex.yy.c	83;"	d	file:
+UINT8_MAX	plumber/lex.yy.c	77;"	d	file:
+VAR_NAME	plumber/pb.tab.c	/^    VAR_NAME = 269,$/;"	e	enum:yytokentype	file:
+VAR_NAME	plumber/pb.tab.h	/^    VAR_NAME = 269,$/;"	e	enum:yytokentype
+VEL_SCALE	controllers/art_pot.c	14;"	d	file:
+VEL_SCALE	controllers/art_pot.c	23;"	d	file:
+VOTER_PRIO_OFFSET	voter/voterd.c	23;"	d	file:
+VOTER_PRIO_OFFSET	voter/voterd_r.c	23;"	d	file:
+WAY_REQ	include/commtypes.h	/^  WAY_REQ,$/;"	e	enum:__anon2
+WAY_RES	include/commtypes.h	/^  WAY_RES,$/;"	e	enum:__anon2
+WINDOW_SIZE	controllers/filter.c	11;"	d	file:
+YYABORT	plumber/pb.tab.c	584;"	d	file:
+YYACCEPT	plumber/pb.tab.c	583;"	d	file:
+YYBACKUP	plumber/pb.tab.c	590;"	d	file:
+YYBISON	plumber/pb.tab.c	44;"	d	file:
+YYBISON_VERSION	plumber/pb.tab.c	47;"	d	file:
+YYCASE_	plumber/pb.tab.c	931;"	d	file:
+YYCASE_	plumber/pb.tab.c	941;"	d	file:
+YYCOPY	plumber/pb.tab.c	380;"	d	file:
+YYCOPY	plumber/pb.tab.c	383;"	d	file:
+YYCOPY_NEEDED	plumber/pb.tab.c	355;"	d	file:
+YYDEBUG	plumber/pb.tab.c	102;"	d	file:
+YYDEBUG	plumber/pb.tab.h	37;"	d
+YYDPRINTF	plumber/pb.tab.c	621;"	d	file:
+YYDPRINTF	plumber/pb.tab.c	736;"	d	file:
+YYEMPTY	plumber/pb.tab.c	580;"	d	file:
+YYEOF	plumber/pb.tab.c	581;"	d	file:
+YYERRCODE	plumber/pb.tab.c	609;"	d	file:
+YYERROR	plumber/pb.tab.c	585;"	d	file:
+YYERROR_VERBOSE	plumber/pb.tab.c	90;"	d	file:
+YYERROR_VERBOSE	plumber/pb.tab.c	91;"	d	file:
+YYERROR_VERBOSE	plumber/pb.tab.c	93;"	d	file:
+YYFINAL	plumber/pb.tab.c	396;"	d	file:
+YYFPRINTF	plumber/pb.tab.c	618;"	d	file:
+YYFREE	plumber/pb.tab.c	326;"	d	file:
+YYINITDEPTH	plumber/pb.tab.c	745;"	d	file:
+YYLAST	plumber/pb.tab.c	398;"	d	file:
+YYMALLOC	plumber/pb.tab.c	320;"	d	file:
+YYMAXDEPTH	plumber/pb.tab.c	756;"	d	file:
+YYMAXUTOK	plumber/pb.tab.c	412;"	d	file:
+YYNNTS	plumber/pb.tab.c	403;"	d	file:
+YYNRULES	plumber/pb.tab.c	405;"	d	file:
+YYNSTATES	plumber/pb.tab.c	407;"	d	file:
+YYNTOKENS	plumber/pb.tab.c	401;"	d	file:
+YYPACT_NINF	plumber/pb.tab.c	484;"	d	file:
+YYPOPSTACK	plumber/pb.tab.c	1056;"	d	file:
+YYPULL	plumber/pb.tab.c	59;"	d	file:
+YYPURE	plumber/pb.tab.c	53;"	d	file:
+YYPUSH	plumber/pb.tab.c	56;"	d	file:
+YYRECOVERING	plumber/pb.tab.c	588;"	d	file:
+YYSIZE_MAXIMUM	plumber/pb.tab.c	199;"	d	file:
+YYSIZE_T	plumber/pb.tab.c	188;"	d	file:
+YYSIZE_T	plumber/pb.tab.c	190;"	d	file:
+YYSIZE_T	plumber/pb.tab.c	193;"	d	file:
+YYSIZE_T	plumber/pb.tab.c	195;"	d	file:
+YYSKELETON_NAME	plumber/pb.tab.c	50;"	d	file:
+YYSTACK_ALLOC	plumber/pb.tab.c	274;"	d	file:
+YYSTACK_ALLOC	plumber/pb.tab.c	278;"	d	file:
+YYSTACK_ALLOC	plumber/pb.tab.c	283;"	d	file:
+YYSTACK_ALLOC	plumber/pb.tab.c	306;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	plumber/pb.tab.c	303;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	plumber/pb.tab.c	309;"	d	file:
+YYSTACK_BYTES	plumber/pb.tab.c	351;"	d	file:
+YYSTACK_FREE	plumber/pb.tab.c	297;"	d	file:
+YYSTACK_FREE	plumber/pb.tab.c	307;"	d	file:
+YYSTACK_GAP_MAXIMUM	plumber/pb.tab.c	347;"	d	file:
+YYSTACK_RELOCATE	plumber/pb.tab.c	362;"	d	file:
+YYSTATE	plumber/lex.yy.c	132;"	d	file:
+YYSTYPE	plumber/pb.tab.c	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	plumber/pb.tab.c	/^union YYSTYPE$/;"	u	file:
+YYSTYPE	plumber/pb.tab.h	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE	plumber/pb.tab.h	/^union YYSTYPE$/;"	u
+YYSTYPE_IS_DECLARED	plumber/pb.tab.c	144;"	d	file:
+YYSTYPE_IS_DECLARED	plumber/pb.tab.h	79;"	d
+YYSTYPE_IS_TRIVIAL	plumber/pb.tab.c	143;"	d	file:
+YYSTYPE_IS_TRIVIAL	plumber/pb.tab.h	78;"	d
+YYTABLES_NAME	plumber/lex.yy.c	1853;"	d	file:
+YYTABLE_NINF	plumber/pb.tab.c	489;"	d	file:
+YYTERROR	plumber/pb.tab.c	608;"	d	file:
+YYTOKENTYPE	plumber/pb.tab.c	110;"	d	file:
+YYTOKENTYPE	plumber/pb.tab.h	45;"	d
+YYTRANSLATE	plumber/pb.tab.c	414;"	d	file:
+YYUNDEFTOK	plumber/pb.tab.c	411;"	d	file:
+YYUSE	plumber/pb.tab.c	242;"	d	file:
+YYUSE	plumber/pb.tab.c	244;"	d	file:
+YY_	plumber/pb.tab.c	205;"	d	file:
+YY_	plumber/pb.tab.c	209;"	d	file:
+YY_ATTRIBUTE	plumber/pb.tab.c	217;"	d	file:
+YY_ATTRIBUTE	plumber/pb.tab.c	219;"	d	file:
+YY_ATTRIBUTE_PURE	plumber/pb.tab.c	224;"	d	file:
+YY_ATTRIBUTE_UNUSED	plumber/pb.tab.c	228;"	d	file:
+YY_AT_BOL	plumber/lex.yy.c	339;"	d	file:
+YY_BREAK	plumber/lex.yy.c	662;"	d	file:
+YY_BUFFER_EOF_PENDING	plumber/lex.yy.c	255;"	d	file:
+YY_BUFFER_NEW	plumber/lex.yy.c	243;"	d	file:
+YY_BUFFER_NORMAL	plumber/lex.yy.c	244;"	d	file:
+YY_BUFFER_STATE	plumber/lex.yy.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	plumber/lex.yy.c	149;"	d	file:
+YY_BUF_SIZE	plumber/lex.yy.c	151;"	d	file:
+YY_CHAR	plumber/lex.yy.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	plumber/lex.yy.c	271;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	plumber/lex.yy.c	278;"	d	file:
+YY_DECL	plumber/lex.yy.c	650;"	d	file:
+YY_DECL_IS_OURS	plumber/lex.yy.c	646;"	d	file:
+YY_DO_BEFORE_ACTION	plumber/lex.yy.c	364;"	d	file:
+YY_END_OF_BUFFER	plumber/lex.yy.c	372;"	d	file:
+YY_END_OF_BUFFER_CHAR	plumber/lex.yy.c	140;"	d	file:
+YY_EXIT_FAILURE	plumber/lex.yy.c	1651;"	d	file:
+YY_EXTRA_TYPE	plumber/lex.yy.c	502;"	d	file:
+YY_FATAL_ERROR	plumber/lex.yy.c	637;"	d	file:
+YY_FLEX_MAJOR_VERSION	plumber/lex.yy.c	9;"	d	file:
+YY_FLEX_MINOR_VERSION	plumber/lex.yy.c	10;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	plumber/lex.yy.c	11;"	d	file:
+YY_FLUSH_BUFFER	plumber/lex.yy.c	307;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	plumber/pb.tab.c	249;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	plumber/pb.tab.c	259;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	plumber/pb.tab.c	253;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	plumber/pb.tab.c	260;"	d	file:
+YY_INITIAL_VALUE	plumber/pb.tab.c	256;"	d	file:
+YY_INITIAL_VALUE	plumber/pb.tab.c	263;"	d	file:
+YY_INPUT	plumber/lex.yy.c	590;"	d	file:
+YY_INT_ALIGNED	plumber/lex.yy.c	4;"	d	file:
+YY_LESS_LINENO	plumber/lex.yy.c	172;"	d	file:
+YY_LOCATION_PRINT	plumber/pb.tab.c	629;"	d	file:
+YY_MORE_ADJ	plumber/lex.yy.c	481;"	d	file:
+YY_NEW_FILE	plumber/lex.yy.c	138;"	d	file:
+YY_NULL	plumber/lex.yy.c	112;"	d	file:
+YY_NULLPTR	plumber/pb.tab.c	82;"	d	file:
+YY_NULLPTR	plumber/pb.tab.c	84;"	d	file:
+YY_NUM_RULES	plumber/lex.yy.c	371;"	d	file:
+YY_READ_BUF_SIZE	plumber/lex.yy.c	572;"	d	file:
+YY_READ_BUF_SIZE	plumber/lex.yy.c	574;"	d	file:
+YY_REDUCE_PRINT	plumber/pb.tab.c	726;"	d	file:
+YY_REDUCE_PRINT	plumber/pb.tab.c	739;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	plumber/lex.yy.c	482;"	d	file:
+YY_RULE_SETUP	plumber/lex.yy.c	665;"	d	file:
+YY_SC_TO_UI	plumber/lex.yy.c	119;"	d	file:
+YY_STACK_PRINT	plumber/pb.tab.c	695;"	d	file:
+YY_STACK_PRINT	plumber/pb.tab.c	738;"	d	file:
+YY_START	plumber/lex.yy.c	131;"	d	file:
+YY_START_STACK_INCR	plumber/lex.yy.c	632;"	d	file:
+YY_STATE_BUF_SIZE	plumber/lex.yy.c	157;"	d	file:
+YY_STATE_EOF	plumber/lex.yy.c	135;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	plumber/lex.yy.c	196;"	d	file:
+YY_SYMBOL_PRINT	plumber/pb.tab.c	633;"	d	file:
+YY_SYMBOL_PRINT	plumber/pb.tab.c	737;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	plumber/lex.yy.c	160;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	plumber/lex.yy.c	191;"	d	file:
+YY_USER_ACTION	plumber/lex.yy.c	657;"	d	file:
+YY_USE_CONST	plumber/lex.yy.c	100;"	d	file:
+YY_USE_CONST	plumber/lex.yy.c	93;"	d	file:
+YY_YY_PB_TAB_H_INCLUDED	plumber/pb.tab.c	99;"	d	file:
+YY_YY_PB_TAB_H_INCLUDED	plumber/pb.tab.h	34;"	d
+_COMM_TYPES_H_	include/commtypes.h	6;"	d
+_CPU_H_	tas_lib/inc/cpu.h	8;"	d
+_FORCE_H_	tas_lib/inc/force.h	2;"	d
+_GNU_SOURCE	include/commtypes.h	8;"	d
+_GNU_SOURCE	include/vote_buff.h	8;"	d
+_GNU_SOURCE	tas_lib/cpu.c	1;"	d	file:
+_Noreturn	plumber/pb.tab.c	234;"	d	file:
+_Noreturn	plumber/pb.tab.c	236;"	d	file:
+_TAS_LIMITED_H_	tas_lib/inc/taslimited.h	2;"	d
+_TIME_H_	tas_lib/inc/tas_time.h	9;"	d
+_VOTE_BUFF_H_	include/vote_buff.h	6;"	d
+_WITH_GETLINE	include/ccv.h	11;"	d
+__REP_GUARD	include/replicas.h	8;"	d
+__STDC_LIMIT_MACROS	plumber/lex.yy.c	39;"	d	file:
+_ccv_get_data_type_size	include/ccv.h	/^static const int _ccv_get_data_type_size[] = { -1, 1, 4, -1, 4, -1, -1, -1, 8, -1, -1, -1, -1, -1, -1, -1, 8 };$/;"	v
+a	include/ccv.h	/^			double a, b;$/;"	m	struct:__anon43::__anon44::__anon45
+a	include/ccv.h	/^	float x, y, a, b;$/;"	m	struct:__anon34
+acceptSendFDS	src/fd_server.c	/^int acceptSendFDS(struct server_data * sd, pid_t *pid, struct vote_pipe* pipes, int pipe_count) {$/;"	f
+acceptance	include/ccv.h	/^	double acceptance; \/**< The percentage of validation examples will be accepted when soft cascading the classifiers that will be sued for bootstrap. *\/$/;"	m	struct:__anon80
+accu_false_positive_rate	include/ccv.h	/^		float accu_false_positive_rate; \/**< [stop_criteria.accu_false_positive_rate] The targeted accumulative false positive rate for classifier cascade, the training will be terminated once the accumulative false positive rate target reached. *\/$/;"	m	struct:__anon89::__anon91
+accurate	include/ccv.h	/^	int accurate; \/**< BBF will generates 4 spatial scale variations for better accuracy. Set this parameter to 0 will reduce to 1 scale variation, and thus 3 times faster but lower the general accuracy of the detector. *\/$/;"	m	struct:__anon67
+ack_index	controllers/a_star.c	/^int updates_index, ack_index, way_req_index, way_res_index;$/;"	v
+ack_index	controllers/mapper.c	/^int data_index, update_index, ack_index; \/\/ Data from range pose, updates to planner, planner acks.$/;"	v
+acts	include/ccv.h	/^	ccv_dense_matrix_t** acts; \/\/ hidden layers and output layers$/;"	m	struct:__anon106
+addNode	controllers/mapping.c	/^void addNode(struct l_list_t** list, struct node_t* node, double sort_val) {$/;"	f
+addObstacle	controllers/mapper.c	/^bool addObstacle(struct point_i* obs) {$/;"	f
+add_node	plumber/plumbing.c	/^bool add_node(struct nodelist* nodes, char* Name, char* Value, replication_t rep_type, char* voter_name, char* voter_timer, char* priority) {$/;"	f
+address	include/fd_server.h	/^  struct sockaddr_un address;$/;"	m	struct:server_data	typeref:struct:server_data::sockaddr_un
+address_length	include/fd_server.h	/^  socklen_t address_length;$/;"	m	struct:server_data
+affine	include/ccv.h	/^		} affine;$/;"	m	union:__anon43::__anon44	typeref:struct:__anon43::__anon44::__anon45
+age	include/ccv.h	/^		uint64_t age;$/;"	m	struct:__anon14::__anon15
+age	include/ccv.h	/^	uint32_t age;$/;"	m	struct:__anon17
+aheadRep	src/replicas.c	/^int aheadRep(struct replica reps[], int num, int pipe_num) {$/;"	f
+all_nodes	plumber/pb.tab.c	/^struct nodelist all_nodes;$/;"	v	typeref:struct:nodelist
+alloca	plumber/pb.tab.c	281;"	d	file:
+alpha	include/ccv.h	/^		float alpha; \/**< [rnorm.alpha] See **rnorm.kappa**. *\/$/;"	m	struct:__anon96::__anon99
+alpha	include/ccv.h	/^	double alpha; \/**< The step size for stochastic gradient descent. *\/$/;"	m	struct:__anon61
+alpha	include/ccv.h	/^	float alpha[3], beta;$/;"	m	struct:__anon58
+alpha	include/ccv.h	/^	float alpha[6];$/;"	m	struct:__anon57
+alpha	include/ccv.h	/^	float alpha[CCV_ICF_SAT_MAX];$/;"	m	struct:__anon74
+alpha	include/ccv.h	/^	float* alpha;$/;"	m	struct:__anon64
+alpha_ratio	include/ccv.h	/^	double alpha_ratio; \/**< Decrease the step size for each iteration. 0.85 is a reasonable number. *\/$/;"	m	struct:__anon61
+angle	include/ccv.h	/^			double angle;$/;"	m	struct:__anon43::__anon44::__anon46
+area_threshold	include/ccv.h	/^	double area_threshold; \/* default: 1.01 *\/$/;"	m	struct:__anon48
+aspect_ratio	include/ccv.h	/^	double aspect_ratio; \/**< The maximum aspect ratio for a letter. *\/$/;"	m	struct:__anon51
+auc_crit	include/ccv.h	/^		float auc_crit; \/**< [stop_criteria.auc_crit] The epsilon to decide if auc (area under curve) can no longer be improved. Once auc can no longer be improved and the targeted false positive rate reached, this stage of training will be terminated and start the next stage training. *\/$/;"	m	struct:__anon89::__anon91
+b	include/ccv.h	/^			double a, b;$/;"	m	struct:__anon43::__anon44::__anon45
+b	include/ccv.h	/^	float x, y, a, b;$/;"	m	struct:__anon34
+back_link	controllers/inc/mapping.h	/^  struct node_t* back_link;$/;"	m	struct:node_t	typeref:struct:node_t::node_t
+bad_patches	include/ccv.h	/^	int bad_patches; \/**< How many patches should be evaluated in initialization to collect enough negative examples *\/$/;"	m	struct:__anon71
+balance	include/ccv.h	/^	double balance; \/**< To balance the weight of positive examples and negative examples. 1.5 is a reasonable number. *\/$/;"	m	struct:__anon61
+balanceReps	src/replicas.c	/^void balanceReps(struct replica reps[], int num, int default_priority) {$/;"	f
+balance_k	include/ccv.h	/^	double balance_k; \/**< Weight positive examples differently from negative examples. *\/$/;"	m	struct:__anon68
+base	include/ccv.h	/^		ccv_size_t base; \/**< [feature.base] A **ccv_size_t** structure defines the minimal feature dimensions. *\/$/;"	m	struct:__anon89::__anon90
+behindRep	src/replicas.c	/^int behindRep(struct replica reps[], int num, int pipe_num) {$/;"	f
+beta	include/ccv.h	/^		float beta; \/**< [rnorm.beta] See **rnorm.kappa**. *\/$/;"	m	struct:__anon96::__anon99
+beta	include/ccv.h	/^	float alpha[3], beta;$/;"	m	struct:__anon58
+beta	include/ccv.h	/^	float beta;$/;"	m	struct:__anon74
+beta	include/ccv.h	/^	float beta[6];$/;"	m	struct:__anon85
+bias	include/ccv.h	/^	ccv_convnet_layer_sgd_param_t bias; \/**< A **ccv_convnet_layer_sgd_param_t** specifies the stochastic gradient descent update rule for bias, it is only applicable for full connect layer and convolutional layer weight. *\/$/;"	m	struct:__anon108
+bias	include/ccv.h	/^	float bias; \/**< The initialization value for bias if applicable (for convolutional layer and full connect layer). *\/$/;"	m	struct:__anon104
+bias	include/ccv.h	/^	float bias;$/;"	m	struct:__anon81
+bias	include/ccv.h	/^	float bias;$/;"	m	struct:__anon83
+bias	include/ccv.h	/^	float* bias; \/\/ bias$/;"	m	struct:__anon105
+bitmap	include/ccv.h	/^		uint64_t bitmap;$/;"	m	struct:__anon14::__anon15
+boosting	include/ccv.h	/^	int boosting; \/**< How many stages of boosting should be performed. *\/$/;"	m	struct:__anon89
+bootstrap	include/ccv.h	/^	int bootstrap; \/**< The number of boostrap to collect negatives. *\/$/;"	m	struct:__anon80
+border	include/ccv.h	/^		int border; \/**< [convolutional.border] The padding border size for the input matrix. *\/$/;"	m	struct:__anon96::__anon97
+border	include/ccv.h	/^		int border; \/**< [pool.border] The padding border size for the input matrix. *\/$/;"	m	struct:__anon96::__anon98
+bottom	include/ccv.h	/^	int bottom;$/;"	m	struct:__anon28
+box	include/ccv.h	/^		ccv_rect_t box;$/;"	m	union:__anon52::__anon53
+box	include/ccv.h	/^	ccv_comp_t box; \/\/ tracking comp$/;"	m	struct:__anon72
+branch	include/ccv.h	/^	} branch;$/;"	m	union:__anon14	typeref:struct:__anon14::__anon15
+breakdown	include/ccv.h	/^	int breakdown; \/**< If breakdown text line into words. *\/$/;"	m	struct:__anon51
+breakdown_ratio	include/ccv.h	/^	double breakdown_ratio; \/**< Apply [OSTU](\/lib\/ccv-classic) and if inter-class variance above the threshold, it will be break down into words. *\/$/;"	m	struct:__anon51
+buffToPipe	voter/vote_buff.c	/^int buffToPipe(struct vote_pipe* pipe, int fd_out, int n) {$/;"	f
+buff_count	include/vote_buff.h	/^	int buff_count;$/;"	m	struct:vote_pipe
+buff_index	include/vote_buff.h	/^	int buff_index;$/;"	m	struct:vote_pipe
+buffer	include/vote_buff.h	/^	unsigned char buffer[MAX_VOTE_PIPE_BUFF];$/;"	m	struct:vote_pipe
+bytesReady	src/replicas.c	/^int bytesReady(struct replica reps[], int num, int pipe_num) {$/;"	f
+c	include/ccv.h	/^			double c, d;$/;"	m	struct:__anon43::__anon44::__anon45
+c	include/ccv.h	/^	int c; \/\/ class \/ category label$/;"	m	struct:__anon93
+call_getrlimit	tas_lib/taslimited.c	/^void call_getrlimit(int id) {$/;"	f
+call_setrlimit	tas_lib/taslimited.c	/^void call_setrlimit(int id, rlim_t c, rlim_t m)$/;"	f
+cascade	include/ccv.h	/^	ccv_icf_classifier_cascade_t* cascade;$/;"	m	struct:__anon78
+cccalloc	include/ccv.h	25;"	d
+ccfree	include/ccv.h	27;"	d
+ccmalloc	include/ccv.h	24;"	d
+ccmemalign	include/ccv.h	32;"	d
+ccmemalign	include/ccv.h	34;"	d
+ccmemalign	include/ccv.h	37;"	d
+ccrealloc	include/ccv.h	26;"	d
+ccv_array_get	include/ccv.h	864;"	d
+ccv_array_group_f	include/ccv.h	/^typedef int(*ccv_array_group_f)(const void*, const void*, void*);$/;"	t
+ccv_array_t	include/ccv.h	/^} ccv_array_t;$/;"	t	typeref:struct:__anon31
+ccv_bbf_classifier_cascade_t	include/ccv.h	/^} ccv_bbf_classifier_cascade_t;$/;"	t	typeref:struct:__anon65
+ccv_bbf_feature_t	include/ccv.h	/^} ccv_bbf_feature_t;$/;"	t	typeref:struct:__anon63
+ccv_bbf_new_param_t	include/ccv.h	/^} ccv_bbf_new_param_t;$/;"	t	typeref:struct:__anon68
+ccv_bbf_param_t	include/ccv.h	/^} ccv_bbf_param_t;$/;"	t	typeref:struct:__anon67
+ccv_bbf_stage_classifier_t	include/ccv.h	/^} ccv_bbf_stage_classifier_t;$/;"	t	typeref:struct:__anon64
+ccv_cache_index_free_f	include/ccv.h	/^typedef void(*ccv_cache_index_free_f)(void*);$/;"	t
+ccv_cache_index_t	include/ccv.h	/^} ccv_cache_index_t;$/;"	t	typeref:union:__anon14
+ccv_cache_t	include/ccv.h	/^} ccv_cache_t;$/;"	t	typeref:struct:__anon17
+ccv_categorized	include/ccv.h	/^inline static ccv_categorized_t ccv_categorized(int c, ccv_dense_matrix_t* matrix, ccv_file_info_t* file)$/;"	f
+ccv_categorized_t	include/ccv.h	/^} ccv_categorized_t;$/;"	t	typeref:struct:__anon93
+ccv_clamp	include/ccv.h	258;"	d
+ccv_classification_t	include/ccv.h	/^} ccv_classification_t;$/;"	t	typeref:struct:__anon54
+ccv_comp_t	include/ccv.h	/^} ccv_comp_t;$/;"	t	typeref:struct:__anon55
+ccv_compressed_sparse_matrix_t	include/ccv.h	/^} ccv_compressed_sparse_matrix_t;$/;"	t	typeref:struct:__anon18
+ccv_compute_dense_matrix_size	include/ccv.h	266;"	d
+ccv_contour_t	include/ccv.h	/^} ccv_contour_t;$/;"	t	typeref:struct:__anon35
+ccv_convnet_input_t	include/ccv.h	/^} ccv_convnet_input_t;$/;"	t	typeref:struct:__anon101
+ccv_convnet_layer_param_t	include/ccv.h	/^} ccv_convnet_layer_param_t;$/;"	t	typeref:struct:__anon104
+ccv_convnet_layer_sgd_param_t	include/ccv.h	/^} ccv_convnet_layer_sgd_param_t;$/;"	t	typeref:struct:__anon107
+ccv_convnet_layer_t	include/ccv.h	/^} ccv_convnet_layer_t;$/;"	t	typeref:struct:__anon105
+ccv_convnet_layer_train_param_t	include/ccv.h	/^} ccv_convnet_layer_train_param_t;$/;"	t	typeref:struct:__anon108
+ccv_convnet_t	include/ccv.h	/^} ccv_convnet_t;$/;"	t	typeref:struct:__anon106
+ccv_convnet_train_param_t	include/ccv.h	/^} ccv_convnet_train_param_t;$/;"	t	typeref:struct:__anon109
+ccv_convnet_type_t	include/ccv.h	/^} ccv_convnet_type_t;$/;"	t	typeref:union:__anon96
+ccv_convnet_write_param_t	include/ccv.h	/^} ccv_convnet_write_param_t;$/;"	t	typeref:struct:__anon111
+ccv_daisy_param_t	include/ccv.h	/^} ccv_daisy_param_t;$/;"	t	typeref:struct:__anon41
+ccv_decimal_point	include/ccv.h	/^inline static ccv_decimal_point_t ccv_decimal_point(float x, float y)$/;"	f
+ccv_decimal_point_t	include/ccv.h	/^} ccv_decimal_point_t;$/;"	t	typeref:struct:__anon33
+ccv_decimal_point_with_status_t	include/ccv.h	/^} ccv_decimal_point_with_status_t;$/;"	t	typeref:struct:__anon40
+ccv_decimal_pose	include/ccv.h	/^inline static ccv_decimal_pose_t ccv_decimal_pose(float x, float y, float a, float b, float roll, float pitch, float yaw)$/;"	f
+ccv_decimal_pose_t	include/ccv.h	/^} ccv_decimal_pose_t;$/;"	t	typeref:struct:__anon34
+ccv_dense_matrix_t	include/ccv.h	/^} ccv_dense_matrix_t;$/;"	t	typeref:struct:__anon8
+ccv_dense_vector_t	include/ccv.h	/^typedef struct ccv_dense_vector_t {$/;"	s
+ccv_dense_vector_t	include/ccv.h	/^} ccv_dense_vector_t;$/;"	t	typeref:struct:ccv_dense_vector_t
+ccv_dpm_mixture_model_t	include/ccv.h	/^} ccv_dpm_mixture_model_t;$/;"	t	typeref:struct:__anon59
+ccv_dpm_new_param_t	include/ccv.h	/^} ccv_dpm_new_param_t;$/;"	t	typeref:struct:__anon61
+ccv_dpm_param_t	include/ccv.h	/^} ccv_dpm_param_t;$/;"	t	typeref:struct:__anon60
+ccv_dpm_part_classifier_t	include/ccv.h	/^} ccv_dpm_part_classifier_t;$/;"	t	typeref:struct:__anon57
+ccv_dpm_root_classifier_t	include/ccv.h	/^} ccv_dpm_root_classifier_t;$/;"	t	typeref:struct:__anon58
+ccv_ferns_t	include/ccv.h	/^} ccv_ferns_t;$/;"	t	typeref:struct:__anon70
+ccv_file_info_t	include/ccv.h	/^} ccv_file_info_t;$/;"	t	typeref:struct:__anon52
+ccv_filter_kernel_f	include/ccv.h	/^typedef double(*ccv_filter_kernel_f)(double x, double y, void*);$/;"	t
+ccv_get_dense_matrix_cell	include/ccv.h	365;"	d
+ccv_get_dense_matrix_cell_by	include/ccv.h	358;"	d
+ccv_get_dense_matrix_cell_value	include/ccv.h	376;"	d
+ccv_get_dense_matrix_cell_value_by	include/ccv.h	369;"	d
+ccv_get_value	include/ccv.h	378;"	d
+ccv_icf_classifier_cascade_t	include/ccv.h	/^} ccv_icf_classifier_cascade_t; \/\/ Type A, scale image$/;"	t	typeref:struct:__anon77
+ccv_icf_decision_tree_t	include/ccv.h	/^} ccv_icf_decision_tree_t;$/;"	t	typeref:struct:__anon75
+ccv_icf_feature_t	include/ccv.h	/^} ccv_icf_feature_t;$/;"	t	typeref:struct:__anon74
+ccv_icf_multiscale_classifier_cascade_t	include/ccv.h	/^} ccv_icf_multiscale_classifier_cascade_t; \/\/ Type B, scale the classifier$/;"	t	typeref:struct:__anon78
+ccv_icf_new_param_t	include/ccv.h	/^} ccv_icf_new_param_t;$/;"	t	typeref:struct:__anon80
+ccv_icf_param_t	include/ccv.h	/^} ccv_icf_param_t;$/;"	t	typeref:struct:__anon79
+ccv_keypoint_t	include/ccv.h	/^} ccv_keypoint_t;$/;"	t	typeref:struct:__anon43
+ccv_margin	include/ccv.h	/^inline static ccv_margin_t ccv_margin(int left, int top, int right, int bottom)$/;"	f
+ccv_margin_t	include/ccv.h	/^} ccv_margin_t;$/;"	t	typeref:struct:__anon28
+ccv_matrix_cell_t	include/ccv.h	/^} ccv_matrix_cell_t;$/;"	t	typeref:union:__anon7
+ccv_matrix_t	include/ccv.h	/^typedef void ccv_matrix_t;$/;"	t
+ccv_max	include/ccv.h	260;"	d
+ccv_min	include/ccv.h	259;"	d
+ccv_minimize_f	include/ccv.h	/^typedef int(*ccv_minimize_f)(const ccv_dense_matrix_t* x, double* f, ccv_dense_matrix_t* df, void*);$/;"	t
+ccv_minimize_param_t	include/ccv.h	/^} ccv_minimize_param_t;$/;"	t	typeref:struct:__anon36
+ccv_mser_keypoint_t	include/ccv.h	/^} ccv_mser_keypoint_t;$/;"	t	typeref:struct:__anon49
+ccv_mser_param_t	include/ccv.h	/^} ccv_mser_param_t;$/;"	t	typeref:struct:__anon48
+ccv_point	include/ccv.h	/^inline static ccv_point_t ccv_point(int x, int y)$/;"	f
+ccv_point_t	include/ccv.h	/^} ccv_point_t;$/;"	t	typeref:struct:__anon32
+ccv_read	include/ccv.h	473;"	d
+ccv_read_n	include/ccv.h	471;"	d
+ccv_rect	include/ccv.h	/^inline static ccv_rect_t ccv_rect(int x, int y, int width, int height)$/;"	f
+ccv_rect_is_zero	include/ccv.h	/^inline static int ccv_rect_is_zero(ccv_rect_t rect)$/;"	f
+ccv_rect_t	include/ccv.h	/^} ccv_rect_t;$/;"	t	typeref:struct:__anon30
+ccv_root_comp_t	include/ccv.h	/^} ccv_root_comp_t;$/;"	t	typeref:struct:__anon56
+ccv_scd_classifier_cascade_t	include/ccv.h	/^} ccv_scd_classifier_cascade_t;$/;"	t	typeref:struct:__anon86
+ccv_scd_decision_tree_t	include/ccv.h	/^} ccv_scd_decision_tree_t;$/;"	t	typeref:struct:__anon85
+ccv_scd_param_t	include/ccv.h	/^} ccv_scd_param_t;$/;"	t	typeref:struct:__anon88
+ccv_scd_stump_classifier_t	include/ccv.h	/^} ccv_scd_stump_classifier_t;$/;"	t	typeref:struct:__anon82
+ccv_scd_stump_feature_t	include/ccv.h	/^} ccv_scd_stump_feature_t;$/;"	t	typeref:struct:__anon81
+ccv_scd_train_param_t	include/ccv.h	/^} ccv_scd_train_param_t;$/;"	t	typeref:struct:__anon89
+ccv_scd_tree_feature_t	include/ccv.h	/^} ccv_scd_tree_feature_t;$/;"	t	typeref:struct:__anon83
+ccv_set_value	include/ccv.h	385;"	d
+ccv_sift_param_t	include/ccv.h	/^} ccv_sift_param_t;$/;"	t	typeref:struct:__anon47
+ccv_size	include/ccv.h	/^inline static ccv_size_t ccv_size(int width, int height)$/;"	f
+ccv_size_is_zero	include/ccv.h	/^inline static int ccv_size_is_zero(ccv_size_t size)$/;"	f
+ccv_size_t	include/ccv.h	/^} ccv_size_t;$/;"	t	typeref:struct:__anon29
+ccv_sparse_matrix_t	include/ccv.h	/^} ccv_sparse_matrix_t;$/;"	t	typeref:struct:__anon12
+ccv_swt_param_t	include/ccv.h	/^} ccv_swt_param_t;$/;"	t	typeref:struct:__anon51
+ccv_tld_info_t	include/ccv.h	/^} ccv_tld_info_t;$/;"	t	typeref:struct:__anon73
+ccv_tld_param_t	include/ccv.h	/^} ccv_tld_param_t;$/;"	t	typeref:struct:__anon71
+ccv_tld_t	include/ccv.h	/^} ccv_tld_t;$/;"	t	typeref:struct:__anon72
+channel	include/ccv.h	/^	int channel;$/;"	m	struct:__anon83
+channel	include/ccv.h	/^	int channel[CCV_ICF_SAT_MAX];$/;"	m	struct:__anon74
+channels	include/ccv.h	/^		int channels; \/**< [convolutional.channels] The number of channels for convolutional filter. *\/$/;"	m	struct:__anon96::__anon97
+channels	include/ccv.h	/^		int channels; \/**< [matrix.channels] The number of channels of the input matrix. *\/$/;"	m	struct:__anon101::__anon102
+channels	include/ccv.h	/^	int channels;$/;"	m	struct:__anon106
+checkSDC	voter/voterd.c	/^void checkSDC(int pipe_num) {$/;"	f
+checkSDC	voter/voterd_r.c	/^void checkSDC(int pipe_num) {$/;"	f
+checkSync	voter/voterd.c	/^bool checkSync(void) {$/;"	f
+checkSync	voter/voterd_r.c	/^bool checkSync(void) {$/;"	f
+chr	include/ccv.h	/^		unsigned char chr;$/;"	m	union:__anon12::__anon13
+chr	include/ccv.h	/^		unsigned char chr;$/;"	m	union:__anon18::__anon19
+classification	include/ccv.h	/^	ccv_classification_t classification;$/;"	m	struct:__anon55
+classification	include/ccv.h	/^	ccv_classification_t classification;$/;"	m	struct:__anon56
+classifiers	include/ccv.h	/^	ccv_scd_stump_classifier_t* classifiers;$/;"	m	struct:__anon86
+cleanupReplica	src/replicas.c	/^void cleanupReplica(struct replica reps[], int rep_index) {$/;"	f
+close_matches	include/ccv.h	/^	int close_matches; \/**< How many matches we have inside the tracking (may cause a new learning event) *\/$/;"	m	struct:__anon73
+clustered_detects	include/ccv.h	/^	int clustered_detects; \/**< After cluster, how many regions left *\/$/;"	m	struct:__anon73
+cmd_out	plumber/pb.tab.c	/^struct typed_pipe cmd_out;$/;"	v	typeref:struct:typed_pipe
+cmd_out_odom	player_translator_driver/translator_driver.cc	/^  player_devaddr_t cmd_out_odom; \/\/ "original:localhost:6666:position2d:1"$/;"	m	class:TranslatorDriver	file:
+cmd_start	fault_injection/injector.py	/^cmd_start = sys.argv[1]$/;"	v
+cnum	include/ccv.h	/^	int cnum[2];$/;"	m	struct:__anon70
+color_gain	include/ccv.h	/^	float color_gain; \/**< The color variance for data augmentation (0 means no such augmentation). *\/$/;"	m	struct:__anon109
+cols	include/ccv.h	/^		int cols; \/**< [convolutional.cols] The number of columns for convolutional filter. *\/$/;"	m	struct:__anon96::__anon97
+cols	include/ccv.h	/^		int cols; \/**< [matrix.cols] The number of columns of the input matrix. *\/$/;"	m	struct:__anon101::__anon102
+cols	include/ccv.h	/^	int cols;$/;"	m	struct:__anon106
+cols	include/ccv.h	/^	int cols;$/;"	m	struct:__anon12
+cols	include/ccv.h	/^	int cols;$/;"	m	struct:__anon18
+cols	include/ccv.h	/^	int cols;$/;"	m	struct:__anon8
+commCopyRanger	src/commtypes.c	/^void commCopyRanger(struct comm_range_pose_data* recv_msg, double* range_data, double* pose_data) {$/;"	f
+commCopyWaypoints	src/commtypes.c	/^void commCopyWaypoints(struct comm_way_res* recv_msg, double* waypoints, double* n_waypoints) {$/;"	f
+commRecvMapUpdate	src/commtypes.c	/^int commRecvMapUpdate(struct typed_pipe* pipe, struct comm_map_update* msg) {$/;"	f
+commRecvMsgBuffer	src/commtypes.c	/^int commRecvMsgBuffer(struct typed_pipe* pipe, struct comm_msg_buffer* msg) {$/;"	f
+commSendAck	src/commtypes.c	/^int commSendAck(struct typed_pipe* pipe, long state_hash) {$/;"	f
+commSendMapUpdate	src/commtypes.c	/^int commSendMapUpdate(struct typed_pipe* pipe, struct comm_map_update* msg) {$/;"	f
+commSendMoveCommand	src/commtypes.c	/^int commSendMoveCommand(struct typed_pipe* pipe, double vel_0, double vel_1) {$/;"	f
+commSendMsgBuffer	src/commtypes.c	/^int commSendMsgBuffer(struct typed_pipe* pipe, struct comm_msg_buffer* msg) {$/;"	f
+commSendRanger	src/commtypes.c	/^int commSendRanger(struct typed_pipe* pipe, double* ranger_data, double* pose_data) {$/;"	f
+commSendWaypointRequest	src/commtypes.c	/^int commSendWaypointRequest(struct typed_pipe* pipe) {$/;"	f
+commSendWaypoints	src/commtypes.c	/^int commSendWaypoints(struct typed_pipe* pipe, $/;"	f
+commToEnum	src/commtypes.c	/^comm_message_t commToEnum(char* name) {$/;"	f
+comm_ack	include/commtypes.h	/^struct comm_ack {$/;"	s
+comm_map_update	include/commtypes.h	/^struct comm_map_update {$/;"	s
+comm_message_t	include/commtypes.h	/^} comm_message_t;$/;"	t	typeref:enum:__anon2
+comm_mov_cmd	include/commtypes.h	/^struct comm_mov_cmd {$/;"	s
+comm_msg_buffer	include/commtypes.h	/^struct comm_msg_buffer {$/;"	s
+comm_range_pose_data	include/commtypes.h	/^struct comm_range_pose_data {$/;"	s
+comm_way_req	include/commtypes.h	/^struct comm_way_req {$/;"	s
+comm_way_res	include/commtypes.h	/^struct comm_way_res {$/;"	s
+command	controllers/a_star.c	/^void command(void) {$/;"	f
+command	controllers/art_pot.c	/^void command(void) {$/;"	f
+command	controllers/filter.c	/^void command(void) {$/;"	f
+command	controllers/logger.c	/^void command(void) {$/;"	f
+compareBuffs	voter/vote_buff.c	/^int compareBuffs(struct vote_pipe *pipeA, struct vote_pipe *pipeB, int n) {$/;"	f
+components	include/ccv.h	/^	int components; \/**< The number of root filters in the mixture model. *\/$/;"	m	struct:__anon61
+confidence	include/ccv.h	/^	float confidence;$/;"	m	struct:__anon54
+confident_matches	include/ccv.h	/^	int confident_matches; \/**< How many matches we have outside of the tracking region (may cause a re-initialization of the short term tracking) *\/$/;"	m	struct:__anon73
+connectRecvFDS	src/fd_client.c	/^int connectRecvFDS(pid_t pid, struct typed_pipe* pipes, int pipe_count, const char* name) {$/;"	f
+controller_name	test/a_star_test.c	/^const char* controller_name = "AStar";$/;"	v
+controller_name	test/art_pot_test.c	/^const char* controller_name = "ArtPot";$/;"	v
+controller_name	test/empty_test.c	/^const char* controller_name = "Empty";$/;"	v
+controller_name	test/filter_test.c	/^const char* controller_name = "Filter";$/;"	v
+controller_name	test/generic_empty_test.c	/^const char* controller_name = "Empty";$/;"	v
+controller_name	test/load_test.c	/^const char* controller_name = "Load";$/;"	v
+controller_name	test/mapper_test.c	/^const char* controller_name = "Mapper";$/;"	v
+controller_name	test/micro_test/empty_bench.c	/^const char* controller_name = "Empty";$/;"	v
+controller_name	test/micro_test/empty_restart.c	/^const char* controller_name = "Empty";$/;"	v
+controller_name	voter/voterd.c	/^char* controller_name;$/;"	v
+controller_name	voter/voterd_r.c	/^char* controller_name;$/;"	v
+convertTypedToVote	src/commtypes.c	/^void convertTypedToVote(struct typed_pipe ext_pipes[], int pipe_count, struct vote_pipe *new_pipes) {$/;"	f
+convertVoteToTyped	src/commtypes.c	/^void convertVoteToTyped(struct vote_pipe ext_pipes[], int pipe_count, struct typed_pipe *new_pipes) {$/;"	f
+convolutional	include/ccv.h	/^	} convolutional;$/;"	m	union:__anon96	typeref:struct:__anon96::__anon97
+copyBuffer	voter/vote_buff.c	/^void copyBuffer(struct vote_pipe* pipe, char *buffer, int n) {$/;"	f
+copyPipe	voter/vote_buff.c	/^void copyPipe(struct vote_pipe *dest_pipe, struct vote_pipe *src_pipe) {$/;"	f
+count	include/ccv.h	/^		int count; \/**< [convolutional.count] The number of filters for convolutional layer. *\/$/;"	m	struct:__anon96::__anon97
+count	include/ccv.h	/^		int count; \/**< [full_connect.count] The number of output nodes for full connect layer. *\/$/;"	m	struct:__anon96::__anon100
+count	include/ccv.h	/^		int count; \/**< [node.count] The number of nodes. You should either use **node** or **matrix** to specify the input structure. *\/$/;"	m	struct:__anon101::__anon103
+count	include/ccv.h	/^		int count;$/;"	m	struct:__anon86::__anon87
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon106
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon58
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon59
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon64
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon65
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon72
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon74
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon77
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon78
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon82
+count	include/ccv.h	/^	int count;$/;"	m	struct:__anon86
+counterpart	include/ccv.h	/^	int counterpart;$/;"	m	struct:__anon57
+cpu_bind	tas_lib/cpu.c	/^cpu_error_e cpu_bind( const pid_t pid, const cpu_id_t cpu ) {$/;"	f
+cpu_error_e	tas_lib/inc/cpu.h	/^} cpu_error_e;$/;"	t	typeref:enum:__anon1
+cpu_id_t	tas_lib/inc/cpu.h	/^typedef int cpu_id_t;$/;"	t
+cpu_speed_t	tas_lib/inc/cpu.h	/^typedef unsigned long long cpu_speed_t;$/;"	t
+createFDS	src/fd_server.c	/^int createFDS(struct server_data * sd, const char* name) {$/;"	f
+createPipes	src/replicas.c	/^void createPipes(struct replica reps[], int num, struct vote_pipe ext_pipes[], int pipe_count){$/;"	f
+curr_goal	player_translator_driver/translator_driver.cc	/^  double curr_goal[3]; \/\/ Current goal for planners$/;"	m	class:TranslatorDriver	file:
+current	plumber/plumbing.h	/^	struct node* current;$/;"	m	struct:nodelist	typeref:struct:nodelist::node
+current_goal	controllers/a_star.c	/^struct node_t *current_goal;$/;"	v	typeref:struct:node_t
+current_pose	controllers/mapper.c	/^struct point_i* current_pose;$/;"	v	typeref:struct:point_i
+cycle_t	tas_lib/inc/tas_time.h	/^typedef cpu_speed_t cycle_t;$/;"	t
+d	include/ccv.h	/^			double c, d;$/;"	m	struct:__anon43::__anon44::__anon45
+data	include/ccv.h	/^	ccv_matrix_cell_t data;$/;"	m	struct:__anon18
+data	include/ccv.h	/^	ccv_matrix_cell_t data;$/;"	m	struct:__anon8
+data	include/ccv.h	/^	ccv_matrix_cell_t data;$/;"	m	struct:ccv_dense_vector_t
+data	include/ccv.h	/^	void* data;$/;"	m	struct:__anon31
+data_in	plumber/pb.tab.c	/^struct typed_pipe data_in;$/;"	v	typeref:struct:typed_pipe
+data_index	controllers/art_pot.c	/^int data_index, out_index, way_req_index, way_res_index;$/;"	v
+data_index	controllers/filter.c	/^int data_index;$/;"	v
+data_index	controllers/logger.c	/^int data_index;$/;"	v
+data_index	controllers/mapper.c	/^int data_index, update_index, ack_index; \/\/ Data from range pose, updates to planner, planner acks.$/;"	v
+data_minings	include/ccv.h	/^	int data_minings; \/**< How many data mining procedures are needed for discovering hard examples. *\/$/;"	m	struct:__anon61
+datas	test/display_runs.py	/^datas = []$/;"	v
+db	include/ccv.h	/^		double db;$/;"	m	union:__anon12::__anon13
+db	include/ccv.h	/^		double db;$/;"	m	union:__anon18::__anon19
+debug_print	include/bench_config.h	17;"	d
+decay	include/ccv.h	/^	float decay; \/**< See **learn_rate**. *\/$/;"	m	struct:__anon107
+decision	include/ccv.h	/^	} decision;$/;"	m	struct:__anon86	typeref:struct:__anon86::__anon87
+deform_angle	include/ccv.h	/^	float deform_angle; \/**< The range of rotations to add distortion, in radius. *\/$/;"	m	struct:__anon80
+deform_scale	include/ccv.h	/^	float deform_scale; \/**< The range of scale changes to add distortion. *\/$/;"	m	struct:__anon80
+deform_shift	include/ccv.h	/^	float deform_shift; \/**< The range of translations to add distortion, in pixel. *\/$/;"	m	struct:__anon80
+degridify	controllers/mapping.c	/^struct point_d* degridify(int x, int y) {$/;"	f
+delta	include/ccv.h	/^	int delta;$/;"	m	struct:__anon48
+denoms	include/ccv.h	/^	ccv_dense_matrix_t** denoms; \/\/ denominators$/;"	m	struct:__anon106
+deserializePipe	src/commtypes.c	/^void deserializePipe(const char* serial, struct typed_pipe* pipe) {$/;"	f
+detector	include/ccv.h	/^	ccv_bbf_param_t detector; \/**< A **ccv_bbf_params_t** structure that will be used to search negative examples from background images. *\/$/;"	m	struct:__anon68
+detector	include/ccv.h	/^	ccv_dpm_param_t detector; \/**< A **ccv_dpm_params_t** structure that will be used to search positive examples and negative examples from background images. *\/$/;"	m	struct:__anon61
+detector	include/ccv.h	/^	ccv_icf_param_t detector; \/**< A **ccv_icf_param_t** structure that defines various aspects of the detector. *\/$/;"	m	struct:__anon80
+device_count	include/ccv.h	/^	int device_count; \/**< Use how many GPU devices, this is capped by available CUDA devices on your system. For now, ccv's implementation only support up to 4 GPUs *\/$/;"	m	struct:__anon109
+direction	include/ccv.h	/^	int direction; \/* default: 0, 0 for both, -1 for bright to dark, 1 for dark to bright *\/$/;"	m	struct:__anon48
+direction	include/ccv.h	/^	int direction; \/**< SWT direction. (black to white or white to black). *\/$/;"	m	struct:__anon51
+discard_estimating_constant	include/ccv.h	/^	int discard_estimating_constant; \/\/ 1$/;"	m	struct:__anon61
+distance_ratio	include/ccv.h	/^	double distance_ratio; \/**< The allowable distance variance when grouping letters. *\/$/;"	m	struct:__anon51
+doOneUpdate	voter/voterd.c	/^void doOneUpdate(void) {$/;"	f
+doOneUpdate	voter/voterd_r.c	/^void doOneUpdate(void) {$/;"	f
+dor	include/ccv.h	/^	float dor; \/**< The dropout rate for this layer, it is only applicable for full connect layer. *\/$/;"	m	struct:__anon108
+dsfmt	include/ccv.h	/^	void* dsfmt;$/;"	m	struct:__anon72
+dx	include/ccv.h	/^	double dx, dy, dxx, dyy;$/;"	m	struct:__anon57
+dx	include/ccv.h	/^	int dx;$/;"	m	struct:__anon83
+dx	include/ccv.h	/^	int dx[4];$/;"	m	struct:__anon81
+dxx	include/ccv.h	/^	double dx, dy, dxx, dyy;$/;"	m	struct:__anon57
+dy	include/ccv.h	/^	double dx, dy, dxx, dyy;$/;"	m	struct:__anon57
+dy	include/ccv.h	/^	int dy;$/;"	m	struct:__anon83
+dy	include/ccv.h	/^	int dy[4];$/;"	m	struct:__anon81
+dyy	include/ccv.h	/^	double dx, dy, dxx, dyy;$/;"	m	struct:__anon57
+edge_blur_sigma	include/ccv.h	/^	double edge_blur_sigma; \/* default: 1.0 *\/$/;"	m	struct:__anon48
+edge_threshold	include/ccv.h	/^	float edge_threshold; \/**< Above this threshold, it will be recognized as edge otherwise be ignored. *\/$/;"	m	struct:__anon47
+elongate_ratio	include/ccv.h	/^	double elongate_ratio; \/**< The allowable elongate variance when grouping letters. *\/$/;"	m	struct:__anon51
+enterLoop	controllers/a_star.c	/^void enterLoop(void) {$/;"	f
+enterLoop	controllers/art_pot.c	/^void enterLoop(void) {$/;"	f
+enterLoop	controllers/benchmarker.c	/^void enterLoop() {$/;"	f
+enterLoop	controllers/empty.c	/^void enterLoop(void) {$/;"	f
+enterLoop	controllers/filter.c	/^void enterLoop(void) {$/;"	f
+enterLoop	controllers/generic_empty.c	/^void enterLoop(void) {$/;"	f
+enterLoop	controllers/load.c	/^void enterLoop(void) {$/;"	f
+enterLoop	controllers/logger.c	/^void enterLoop(void) {$/;"	f
+enterLoop	controllers/mapper.c	/^void enterLoop(void) {$/;"	f
+eraseAllButList	controllers/a_star.c	/^void eraseAllButList(struct l_list_t** kill_list, struct l_list_t* save_list) {$/;"	f
+eraseList	controllers/mapping.c	/^void eraseList(struct l_list_t** list) {$/;"	f
+estDistance	controllers/a_star.c	/^double estDistance(int x_1, int y_1, int x_2, int y_2) {$/;"	f
+estDistanceG	controllers/a_star.c	/^double estDistanceG(int x, int y) {$/;"	f
+exclude_overlap	include/ccv.h	/^	float exclude_overlap; \/**< Below this threshold, a bounding box will be positively identified as not overlapping with target *\/$/;"	m	struct:__anon71
+ext_pipes	test/micro_test/empty_restart.c	/^struct vote_pipe ext_pipes[2];$/;"	v	typeref:struct:vote_pipe
+ext_pipes	voter/voterd.c	/^struct vote_pipe ext_pipes[PIPE_LIMIT];$/;"	v	typeref:struct:vote_pipe
+ext_pipes	voter/voterd_r.c	/^struct vote_pipe ext_pipes[PIPE_LIMIT];$/;"	v	typeref:struct:vote_pipe
+extrap	include/ccv.h	/^	double extrap; \/**< Extrapolate value. *\/$/;"	m	struct:__anon36
+f32	include/ccv.h	/^		float f32;$/;"	m	union:__anon8::__anon9
+f32	include/ccv.h	/^	float* f32;$/;"	m	union:__anon7
+f64	include/ccv.h	/^		double f64;$/;"	m	union:__anon8::__anon9
+f64	include/ccv.h	/^	double* f64;$/;"	m	union:__anon7
+fakeToPipe	voter/vote_buff.c	/^void fakeToPipe(struct vote_pipe* pipe, int n) {$/;"	f
+fake_hash	controllers/a_star.c	/^long fake_hash = 42;$/;"	v
+false_positive_rate	include/ccv.h	/^		float false_positive_rate; \/**< [stop_criteria.false_positive_rate] The targeted false positive rate for each stage of classifier. *\/$/;"	m	struct:__anon89::__anon91
+fd_in	include/commtypes.h	/^  int fd_in;$/;"	m	struct:typed_pipe
+fd_in	include/vote_buff.h	/^	int fd_in;$/;"	m	struct:vote_pipe
+fd_out	include/commtypes.h	/^  int fd_out;$/;"	m	struct:typed_pipe
+fd_out	include/vote_buff.h	/^	int fd_out;$/;"	m	struct:vote_pipe
+feature	include/ccv.h	/^	ccv_bbf_feature_t* feature;$/;"	m	struct:__anon64
+feature	include/ccv.h	/^	ccv_scd_stump_feature_t feature;$/;"	m	struct:__anon85
+feature	include/ccv.h	/^	} feature;$/;"	m	struct:__anon89	typeref:struct:__anon89::__anon90
+feature_number	include/ccv.h	/^	int feature_number; \/**< The maximum feature number for each classifier. *\/$/;"	m	struct:__anon68
+feature_size	include/ccv.h	/^	int feature_size; \/**< The number of ICF features to pool from. *\/$/;"	m	struct:__anon80
+features	include/ccv.h	/^	ccv_icf_feature_t features[3];$/;"	m	struct:__anon75
+features	include/ccv.h	/^	ccv_scd_stump_feature_t* features;$/;"	m	struct:__anon82
+features	include/ccv.h	/^	int features; \/**< How many features for each fern *\/$/;"	m	struct:__anon71
+features	include/ccv.h	/^	int features;$/;"	m	struct:__anon70
+fern	include/ccv.h	/^	ccv_point_t fern[1];$/;"	m	struct:__anon70
+fern_buffer	include/ccv.h	/^	uint32_t fern_buffer[1]; \/\/ fetched ferns from image, this is a buffer$/;"	m	struct:__anon72
+ferns	include/ccv.h	/^	ccv_ferns_t* ferns; \/\/ ferns classifier$/;"	m	struct:__anon72
+ferns_detects	include/ccv.h	/^	int ferns_detects; \/**< How many regions passed ferns classifier *\/$/;"	m	struct:__anon73
+ferns_thres	include/ccv.h	/^	float ferns_thres; \/\/ computed dynamically from negative examples$/;"	m	struct:__anon72
+ffree	include/ccv.h	/^	ccv_cache_index_free_f ffree[16];$/;"	m	struct:__anon17
+file	include/ccv.h	/^		ccv_file_info_t file;$/;"	m	union:__anon93::__anon94
+file_num	test/display_runs.py	/^	file_num = file_num + 1$/;"	v
+file_num	test/display_runs.py	/^file_num = 0$/;"	v
+filename	include/ccv.h	/^	char* filename;$/;"	m	struct:__anon52
+filler	controllers/empty.c	/^char *filler;$/;"	v
+findNode	controllers/mapping.c	/^struct node_t* findNode(struct l_list_t* list, struct node_t* node) {$/;"	f
+finished	controllers/logger.c	/^bool finished = false;$/;"	v
+fl	include/ccv.h	/^		float fl;$/;"	m	union:__anon12::__anon13
+fl	include/ccv.h	/^		float fl;$/;"	m	union:__anon18::__anon19
+flags	include/ccv.h	/^	int flags; \/**< CCV_BBF_NO_NESTED, if one class of object is inside another class of object, this flag will reject the first object. *\/$/;"	m	struct:__anon67
+flags	include/ccv.h	/^	int flags; \/**< CCV_DPM_NO_NESTED, if one class of object is inside another class of object, this flag will reject the first object. *\/$/;"	m	struct:__anon60
+flags	include/ccv.h	/^	int flags;$/;"	m	struct:__anon79
+flex_int16_t	plumber/lex.yy.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	plumber/lex.yy.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	plumber/lex.yy.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	plumber/lex.yy.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	plumber/lex.yy.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	plumber/lex.yy.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	plumber/lex.yy.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	plumber/lex.yy.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	plumber/lex.yy.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	plumber/lex.yy.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	plumber/lex.yy.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	plumber/lex.yy.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+forceMaps	tas_lib/force.c	/^int forceMaps( ){$/;"	f
+forkReplicas	src/replicas.c	/^void forkReplicas(struct replica reps[], int num, int additional_argc, char **additional_argv) {$/;"	f
+forkSingle	src/replicas.c	/^int forkSingle(char** argv) {$/;"	f
+found	include/ccv.h	/^	int found; \/\/ if the last time found a valid box$/;"	m	struct:__anon72
+frame_signature	include/ccv.h	/^	uint64_t frame_signature;$/;"	m	struct:__anon72
+full_connect	include/ccv.h	/^	} full_connect;$/;"	m	union:__anon96	typeref:struct:__anon96::__anon100
+g_score	controllers/inc/mapping.h	/^  double g_score;$/;"	m	struct:node_t
+genNeighbors	controllers/a_star.c	/^struct l_list_t* genNeighbors(struct node_t* node) {$/;"	f
+generate_timestamp	tas_lib/tas_time.c	/^timestamp_t generate_timestamp( void ) {$/;"	f
+getPIDs	fault_injection/injector.py	/^def getPIDs(pids, names, cmd):$/;"	f
+get_current_time	controllers/load.c	/^static unsigned int get_current_time(void)$/;"	f	file:
+get_node	plumber/plumbing.c	/^struct node* get_node(struct nodelist* nodes, char* Name) {$/;"	f
+glorot	include/ccv.h	/^	float glorot; \/**< The truncated uniform distribution coefficients for weights if applicable (for convolutional layer and full connect layer, glorot \/ sqrt(in + out)). *\/$/;"	m	struct:__anon104
+goal	controllers/a_star.c	/^struct point_i* goal;$/;"	v	typeref:struct:point_i
+goal	controllers/art_pot.c	/^double goal[] = {0.0, 0.0, 0.0};$/;"	v
+goal_path	controllers/a_star.c	/^struct l_list_t* goal_path;$/;"	v	typeref:struct:l_list_t
+grayscale	include/ccv.h	/^	int grayscale; \/**< To train the classifier with grayscale image. *\/$/;"	m	struct:__anon89
+grayscale	include/ccv.h	/^	int grayscale; \/**< Whether to exploit color in a given image. *\/$/;"	m	struct:__anon61
+grayscale	include/ccv.h	/^	int grayscale; \/**< Whether to exploit color in a given image. *\/$/;"	m	struct:__anon80
+grayscale	include/ccv.h	/^	int grayscale;$/;"	m	struct:__anon77
+grayscale	include/ccv.h	/^	int grayscale;$/;"	m	struct:__anon78
+gridify	controllers/mapping.c	/^struct point_i* gridify(struct point_d* p) {$/;"	f
+half_precision	include/ccv.h	/^	int half_precision; \/**< Use half precision float point to represent network parameters. *\/$/;"	m	struct:__anon111
+hash	include/commtypes.h	/^  long hash;$/;"	m	struct:comm_ack
+head	controllers/inc/mapping.h	/^  struct node_t* head;$/;"	m	struct:l_list_t	typeref:struct:l_list_t::node_t
+height	include/ccv.h	/^	int height;$/;"	m	struct:__anon29
+height	include/ccv.h	/^	int height;$/;"	m	struct:__anon30
+height_ratio	include/ccv.h	/^	double height_ratio; \/**< The allowable height variance when grouping letters. *\/$/;"	m	struct:__anon51
+high_thresh	include/ccv.h	/^	int high_thresh; \/**< Parameters for [Canny edge detector](\/lib\/ccv-classic). *\/$/;"	m	struct:__anon51
+hist_th_q_no	include/ccv.h	/^	int hist_th_q_no;$/;"	m	struct:__anon41
+hit_rate	include/ccv.h	/^		float hit_rate; \/**< [stop_criteria.hit_rate] The targeted hit rate for each stage of classifier. *\/$/;"	m	struct:__anon89::__anon91
+i	include/ccv.h	/^		int i;$/;"	m	union:__anon12::__anon13
+i	include/ccv.h	/^		int i;$/;"	m	union:__anon18::__anon19
+i32	include/ccv.h	/^		int i32;$/;"	m	union:__anon8::__anon9
+i32	include/ccv.h	/^	int* i32;$/;"	m	union:__anon7
+i64	include/ccv.h	/^		int64_t i64;$/;"	m	union:__anon8::__anon9
+i64	include/ccv.h	/^	int64_t* i64;$/;"	m	union:__anon7
+id	include/ccv.h	/^	int id;$/;"	m	struct:__anon54
+image_manipulation	include/ccv.h	/^	float image_manipulation; \/**< The value for image brightness \/ contrast \/ saturation manipulations. *\/$/;"	m	struct:__anon109
+include_overlap	include/ccv.h	/^	double include_overlap; \/**< The percentage of overlap between expected bounding box and the bounding box from detection. Beyond this threshold, it is ensured to be the same object. 0.7 is a reasonable number. *\/$/;"	m	struct:__anon61
+include_overlap	include/ccv.h	/^	float include_overlap; \/**< Above this threshold, a bounding box will be positively identified as overlapping with target *\/$/;"	m	struct:__anon71
+index	include/ccv.h	/^	int index;$/;"	m	struct:ccv_dense_vector_t
+index	include/ccv.h	/^	int* index;$/;"	m	struct:__anon18
+indice	include/ccv.h	/^	int* indice;$/;"	m	struct:ccv_dense_vector_t
+initBenchMarker	controllers/benchmarker.c	/^int initBenchMarker() {$/;"	f
+initController	src/controller.c	/^int initController(void) {$/;"	f
+initReplicas	src/replicas.c	/^void initReplicas(struct replica reps[], int rep_num, const char* name, int priority) {  $/;"	f
+initVoterD	voter/voterd.c	/^int initVoterD(void) {$/;"	f
+initVoterD	voter/voterd_r.c	/^int initVoterD(void) {$/;"	f
+injectRegError	fault_injection/register_util.c	/^int injectRegError(pid_t pid) \/\/struct user_regs_struct * regs)$/;"	f
+input	include/ccv.h	/^	ccv_convnet_input_t input; \/**< A **ccv_convnet_input_t** specifies the input structure. *\/$/;"	m	struct:__anon104
+input	include/ccv.h	/^	ccv_convnet_input_t input; \/\/ the input requirement$/;"	m	struct:__anon105
+input	include/ccv.h	/^	ccv_size_t input;$/;"	m	struct:__anon106
+input	include/ccv.h	/^	} input;$/;"	m	struct:__anon109	typeref:struct:__anon109::__anon110
+insertCFE	controllers/a_star.c	/^bool insertCFE;$/;"	v
+insertCFE	controllers/art_pot.c	/^bool insertCFE = false;$/;"	v
+insertCFE	controllers/empty.c	/^bool insertCFE = false;$/;"	v
+insertCFE	controllers/filter.c	/^bool insertCFE = false;$/;"	v
+insertCFE	controllers/generic_empty.c	/^bool insertCFE = false;$/;"	v
+insertCFE	controllers/load.c	/^bool insertCFE = false;$/;"	v
+insertCFE	controllers/logger.c	/^bool insertCFE = false;$/;"	v
+insertCFE	controllers/mapper.c	/^bool insertCFE = false;$/;"	v
+insertSDC	controllers/a_star.c	/^bool insertSDC;$/;"	v
+insertSDC	controllers/art_pot.c	/^bool insertSDC = false;$/;"	v
+insertSDC	controllers/empty.c	/^bool insertSDC = false;$/;"	v
+insertSDC	controllers/filter.c	/^bool insertSDC = false;$/;"	v
+insertSDC	controllers/generic_empty.c	/^bool insertSDC = false;$/;"	v
+insertSDC	controllers/load.c	/^bool insertSDC = false; \/\/ Not used$/;"	v
+insertSDC	controllers/logger.c	/^bool insertSDC = false;$/;"	v
+insertSDC	controllers/mapper.c	/^bool insertSDC = false;$/;"	v
+intensity_thresh	include/ccv.h	/^	int intensity_thresh; \/**< The allowable intensity variance when grouping letters. *\/$/;"	m	struct:__anon51
+interp	include/ccv.h	/^	double interp; \/**< Interpolate value. *\/$/;"	m	struct:__anon36
+intersect_ratio	include/ccv.h	/^	double intersect_ratio; \/**< The allowable intersect variance when grouping letters. *\/$/;"	m	struct:__anon51
+interval	include/ccv.h	/^	int interval; \/**< How many intermediate images in between each image pyramid level (from width => width \/ 2) *\/$/;"	m	struct:__anon71
+interval	include/ccv.h	/^	int interval; \/**< Interval images between the full size image and the half size one. e.g. 2 will generate 2 images in between full size image and half size one: image with full size, image with 5\/6 size, image with 2\/3 size, image with 1\/2 size. *\/$/;"	m	struct:__anon60
+interval	include/ccv.h	/^	int interval; \/**< Interval images between the full size image and the half size one. e.g. 2 will generate 2 images in between full size image and half size one: image with full size, image with 5\/6 size, image with 2\/3 size, image with 1\/2 size. *\/$/;"	m	struct:__anon67
+interval	include/ccv.h	/^	int interval; \/**< Interval images between the full size image and the half size one. e.g. 2 will generate 2 images in between full size image and half size one: image with full size, image with 5\/6 size, image with 2\/3 size, image with 1\/2 size. *\/$/;"	m	struct:__anon79
+interval	include/ccv.h	/^	int interval; \/**< Interval images between the full size image and the half size one. e.g. 2 will generate 2 images in between full size image and half size one: image with full size, image with 5\/6 size, image with 2\/3 size, image with 1\/2 size. *\/$/;"	m	struct:__anon88
+interval	include/ccv.h	/^	int interval; \/**< Intervals for scale invariant option. *\/$/;"	m	struct:__anon51
+iterations	include/ccv.h	/^	int iterations; \/**< How many iterations needed for stochastic gradient descent. *\/$/;"	m	struct:__anon61
+iterations	include/ccv.h	/^	int iterations; \/**< The number of iterations (an iteration is for one batch) before save the progress. *\/$/;"	m	struct:__anon109
+kappa	include/ccv.h	/^		float kappa; \/**< [rnorm.kappa] As of b[i] = a[i] \/ (rnorm.kappa + rnorm.alpha * sum(a, i - rnorm.size \/ 2, i + rnorm.size \/ 2)) ^ rnorm.beta *\/$/;"	m	struct:__anon96::__anon99
+keypoint	include/ccv.h	/^	ccv_point_t keypoint;$/;"	m	struct:__anon49
+kill_index	fault_injection/injector.py	/^		kill_index = random.randint(0, len(victim_pids)-1)$/;"	v
+l	include/ccv.h	/^		int64_t l;$/;"	m	union:__anon12::__anon13
+l	include/ccv.h	/^		int64_t l;$/;"	m	union:__anon18::__anon19
+l_list_t	controllers/inc/mapping.h	/^struct l_list_t {$/;"	s
+last	test/micro_test/empty_bench.c	/^timestamp_t last;$/;"	v
+launch_node	plumber/plumbing.c	/^int launch_node(struct nodelist* nodes) {$/;"	f
+layer	include/ccv.h	/^	int layer; \/**< The maximum layer trained for the classifier cascade. *\/$/;"	m	struct:__anon68
+layer_params	include/ccv.h	/^	ccv_convnet_layer_train_param_t* layer_params; \/**< An C-array of **ccv_convnet_layer_train_param_t** training parameters for each layer. *\/$/;"	m	struct:__anon109
+layers	include/ccv.h	/^	ccv_convnet_layer_t* layers; \/\/ the layer configuration$/;"	m	struct:__anon106
+learn_rate	include/ccv.h	/^	float learn_rate; \/**< New velocity = **momentum** * old velocity - **decay** * **learn_rate** * old value + **learn_rate** * delta, new value = old value + new velocity *\/$/;"	m	struct:__anon107
+left	include/ccv.h	/^	int left;$/;"	m	struct:__anon28
+length	include/ccv.h	/^	int length;$/;"	m	struct:ccv_dense_vector_t
+length	include/commtypes.h	/^  int length;$/;"	m	struct:comm_msg_buffer
+letter_occlude_thresh	include/ccv.h	/^	int letter_occlude_thresh;$/;"	m	struct:__anon51
+letter_thresh	include/ccv.h	/^	int letter_thresh; \/**< The allowable letter threshold. *\/$/;"	m	struct:__anon51
+level	include/ccv.h	/^	int level; \/**< Level of image pyramids *\/$/;"	m	struct:__anon71
+level	include/ccv.h	/^	int level;$/;"	m	struct:__anon43
+line_types	test/display_runs.py	/^line_types = ['b.', 'r.', 'g.', 'm.', 'k.']$/;"	v
+lines	test/display_runs.py	/^lines = []$/;"	v
+link_bench	plumber/plumbing.c	/^void link_bench(struct node* n, comm_message_t type, int fd_in, int fd_out, bool timed) {$/;"	f
+link_node	plumber/plumbing.c	/^void link_node(comm_message_t type, struct node* fromNode, bool fromTimed, struct node* toNode, bool toTimed) {$/;"	f
+load_factor	include/ccv.h	/^	int load_factor;$/;"	m	struct:__anon12
+load_factor	include/ccv.h	/^	int load_factor;$/;"	m	struct:ccv_dense_vector_t
+lockItUp	tas_lib/force.c	/^int lockItUp() {$/;"	f
+log_file	controllers/logger.c	/^FILE *log_file;$/;"	v
+low_thresh	include/ccv.h	/^	int low_thresh; \/**< Parameters for [Canny edge detector](\/lib\/ccv-classic). *\/$/;"	m	struct:__anon51
+m01	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon35
+m01	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon49
+m02	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon35
+m02	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon49
+m10	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon35
+m10	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon49
+m11	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon35
+m11	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon49
+m20	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon35
+m20	include/ccv.h	/^	long m10, m01, m11, m20, m02;$/;"	m	struct:__anon49
+main	controllers/a_star.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/art_pot.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/benchmarker.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/empty.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/filter.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/generic_empty.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/load.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/logger.c	/^int main(int argc, const char **argv) {$/;"	f
+main	controllers/mapper.c	/^int main(int argc, const char **argv) {$/;"	f
+main	fault_injection/register_util.c	/^void main(int argc, char** argv) {$/;"	f
+main	plumber/pb.tab.c	/^int main(int argc, char **argv) {$/;"	f
+main	stage_control/basic.c	/^int main(int argc, const char **argv) {$/;"	f
+main	test/a_star_test.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/art_pot_test.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/empty_test.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/filter_test.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/generic_empty_test.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/load_test.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/mapper_test.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/micro_test/empty_bench.c	/^int main(int argc, const char** argv) {$/;"	f
+main	test/micro_test/empty_restart.c	/^int main(int argc, const char **argv) {$/;"	f
+main	voter/test_buff.c	/^int main (int argc, char ** argv) {$/;"	f
+main	voter/voterd.c	/^int main(int argc, const char **argv) {$/;"	f
+main	voter/voterd_r.c	/^int main(int argc, const char **argv) {$/;"	f
+major	include/ccv.h	/^	int major;$/;"	m	struct:__anon12
+margin	include/ccv.h	/^	ccv_margin_t margin;$/;"	m	struct:__anon77
+margin	include/ccv.h	/^	ccv_margin_t margin;$/;"	m	struct:__anon80
+margin	include/ccv.h	/^	ccv_margin_t margin;$/;"	m	struct:__anon86
+matrix	include/ccv.h	/^		ccv_dense_matrix_t* matrix;$/;"	m	union:__anon93::__anon94
+matrix	include/ccv.h	/^	} matrix;$/;"	m	struct:__anon101	typeref:struct:__anon101::__anon102
+max_area	include/ccv.h	/^	int max_area; \/**< The maximum area that one part classifier can occupy. 5000 is a reasonable number. *\/$/;"	m	struct:__anon61
+max_area	include/ccv.h	/^	int max_area;$/;"	m	struct:__anon48
+max_dim	include/ccv.h	/^		int max_dim; \/**< [input.max_dim] The maximum dimensions for random resize of training images. *\/$/;"	m	struct:__anon109::__anon110
+max_epoch	include/ccv.h	/^	int max_epoch; \/**< The number of epoch (an epoch sweeps through all the examples) to go through before end the training. *\/$/;"	m	struct:__anon109
+max_evolution	include/ccv.h	/^	int max_evolution;$/;"	m	struct:__anon48
+max_height	include/ccv.h	/^	int max_height; \/**< The maximum height for a letter. *\/$/;"	m	struct:__anon51
+max_iter	include/ccv.h	/^	int max_iter; \/**< Maximum iterations. *\/$/;"	m	struct:__anon36
+max_variance	include/ccv.h	/^	double max_variance;$/;"	m	struct:__anon48
+maximum_feature	include/ccv.h	/^		int maximum_feature; \/**< [stop_criteria.maximum_feature] Maximum number of features one stage can have. *\/$/;"	m	struct:__anon89::__anon91
+mean_activity	include/ccv.h	/^	ccv_dense_matrix_t* mean_activity; \/\/ mean activity to subtract from$/;"	m	struct:__anon106
+message	include/commtypes.h	/^  char* message;$/;"	m	struct:comm_msg_buffer
+min_area	include/ccv.h	/^	int min_area; \/* default: 60 *\/$/;"	m	struct:__anon48
+min_area	include/ccv.h	/^	int min_area; \/**< The minimum area that one part classifier can occupy, 3000 is a reasonable number. *\/$/;"	m	struct:__anon61
+min_area	include/ccv.h	/^	int min_area; \/**< The minimum occupied area for a letter. *\/$/;"	m	struct:__anon51
+min_dim	include/ccv.h	/^		int min_dim; \/**< [input.min_dim] The minimum dimensions for random resize of training images. *\/$/;"	m	struct:__anon109::__anon110
+min_dimension	include/ccv.h	/^	int min_dimension; \/**< The minimal size of a ICF feature region. *\/$/;"	m	struct:__anon80
+min_diversity	include/ccv.h	/^	double min_diversity;$/;"	m	struct:__anon48
+min_eigen	include/ccv.h	/^	float min_eigen; \/**< The minimal eigenvalue for a valid optical flow computation *\/$/;"	m	struct:__anon71
+min_forward_backward_error	include/ccv.h	/^	float min_forward_backward_error; \/**< The minimal forward backward error *\/$/;"	m	struct:__anon71
+min_height	include/ccv.h	/^	int min_height; \/**< The minimum height for a letter. *\/$/;"	m	struct:__anon51
+min_margin	include/ccv.h	/^	double min_margin; \/* default: 0.003 *\/$/;"	m	struct:__anon48
+min_neighbors	include/ccv.h	/^	int min_neighbors; \/**< 0: no grouping afterwards. 1: group objects that intersects each other. > 1: group objects that intersects each other, and only passes these that have at least **min_neighbors** intersected objects. *\/$/;"	m	struct:__anon60
+min_neighbors	include/ccv.h	/^	int min_neighbors; \/**< 0: no grouping afterwards. 1: group objects that intersects each other. > 1: group objects that intersects each other, and only passes these that have at least **min_neighbors** intersected objects. *\/$/;"	m	struct:__anon67
+min_neighbors	include/ccv.h	/^	int min_neighbors; \/**< 0: no grouping afterwards. 1: group objects that intersects each other. > 1: group objects that intersects each other, and only passes these that have at least **min_neighbors** intersected objects. *\/$/;"	m	struct:__anon79
+min_neighbors	include/ccv.h	/^	int min_neighbors; \/**< 0: no grouping afterwards. 1: group objects that intersects each other. > 1: group objects that intersects each other, and only passes these that have at least **min_neighbors** intersected objects. *\/$/;"	m	struct:__anon88
+min_neighbors	include/ccv.h	/^	int min_neighbors; \/**< Minimal neighbors to make a detection valid, this is for scale-invariant version. *\/$/;"	m	struct:__anon51
+min_win	include/ccv.h	/^	int min_win; \/**< The minimal window size of patches for detection *\/$/;"	m	struct:__anon71
+mini_batch	include/ccv.h	/^	int mini_batch; \/**< The number of examples for a batch in stochastic gradient descent. *\/$/;"	m	struct:__anon109
+momentum	include/ccv.h	/^	float momentum; \/**< See **learn_rate**. *\/$/;"	m	struct:__anon107
+mov_cmd_msg	controllers/benchmarker.c	/^struct comm_mov_cmd mov_cmd_msg;$/;"	v	typeref:struct:comm_mov_cmd
+n	test/display_runs.py	/^				n = n + 1$/;"	v
+n	test/display_runs.py	/^	n = 0$/;"	v
+n_current_goal	controllers/a_star.c	/^struct node_t *n_current_goal;$/;"	v	typeref:struct:node_t
+n_point	include/commtypes.h	/^  double n_point[3];$/;"	m	struct:comm_way_res
+name	controllers/a_star.c	/^const char* name = "AStar";$/;"	v
+name	controllers/art_pot.c	/^const char* name = "ArtPot";$/;"	v
+name	controllers/empty.c	/^const char* name = "Empty";$/;"	v
+name	controllers/filter.c	/^const char* name = "Filter";$/;"	v
+name	controllers/generic_empty.c	/^const char* name = "Empty";$/;"	v
+name	controllers/load.c	/^const char* name = "Load";$/;"	v
+name	controllers/logger.c	/^const char* name = "Logger";$/;"	v
+name	controllers/mapper.c	/^const char* name = "Mapper";$/;"	v
+name	include/replicas.h	/^  char* name;$/;"	m	struct:replica
+name	plumber/plumbing.h	/^	char* name;$/;"	m	struct:node
+neg_crit	include/ccv.h	/^	double neg_crit; \/**< Negative criteria or the targeted reject ratio, BBF classifier tries to include more weak features until meet this criteria. *\/$/;"	m	struct:__anon68
+negative_cache_size	include/ccv.h	/^	int negative_cache_size; \/**< The cache size for negative examples. 1000 is a reasonable number. *\/$/;"	m	struct:__anon61
+neighbors	include/ccv.h	/^	int neighbors;$/;"	m	struct:__anon55
+neighbors	include/ccv.h	/^	int neighbors;$/;"	m	struct:__anon56
+net	include/ccv.h	/^	ccv_convnet_type_t net; \/\/ network configuration$/;"	m	struct:__anon105
+newList	controllers/mapping.c	/^struct l_list_t* newList() {$/;"	f
+newNode	controllers/mapping.c	/^struct node_t* newNode(int x, int y, double g_score) {$/;"	f
+new_deform	include/ccv.h	/^	int new_deform; \/**< Number of deformations should be applied at initialization *\/$/;"	m	struct:__anon71
+new_deform_angle	include/ccv.h	/^	float new_deform_angle; \/**< The maximal angle for x, y and z axis rotation at initialization *\/$/;"	m	struct:__anon71
+new_deform_scale	include/ccv.h	/^	float new_deform_scale; \/**< The maximal scale for the deformation at initialization *\/$/;"	m	struct:__anon71
+new_deform_shift	include/ccv.h	/^	float new_deform_shift; \/**< The maximal shift for the deformation at initialization *\/$/;"	m	struct:__anon71
+next	include/ccv.h	/^	struct ccv_dense_vector_t* next;$/;"	m	struct:ccv_dense_vector_t	typeref:struct:ccv_dense_vector_t::ccv_dense_vector_t
+next	plumber/plumbing.h	/^	struct nodelist* next;$/;"	m	struct:nodelist	typeref:struct:nodelist::nodelist
+next_goal	controllers/art_pot.c	/^double next_goal[] = {0.0, 0.0, 0.0};$/;"	v
+nlevels	include/ccv.h	/^	int nlevels; \/**< Number of levels for each octaves. *\/$/;"	m	struct:__anon47
+nnc_beyond	include/ccv.h	/^	float nnc_beyond; \/**< The upper bound threshold for adaptive computed threshold *\/$/;"	m	struct:__anon71
+nnc_collect	include/ccv.h	/^	float nnc_collect; \/**< The threshold that a negative patch above this will be collected as negative example *\/$/;"	m	struct:__anon71
+nnc_detects	include/ccv.h	/^	int nnc_detects; \/**< How many regions passed nearest neighbor classifier *\/$/;"	m	struct:__anon73
+nnc_same	include/ccv.h	/^	float nnc_same; \/**< Above this threshold, a given patch will be identified as the same *\/$/;"	m	struct:__anon71
+nnc_thres	include/ccv.h	/^	float nnc_thres; \/**< The initial threshold for positively recognize a patch *\/$/;"	m	struct:__anon71
+nnc_thres	include/ccv.h	/^	float nnc_thres; \/\/ computed dynamically from negative examples$/;"	m	struct:__anon72
+nnc_verify	include/ccv.h	/^	float nnc_verify; \/**< The threshold for a tracking result from short-term tracker be verified as a positive detection *\/$/;"	m	struct:__anon71
+nnc_verify_thres	include/ccv.h	/^	float nnc_verify_thres; \/\/ computed dynamically from negative examples$/;"	m	struct:__anon72
+nnz	include/ccv.h	/^	int nnz;$/;"	m	struct:__anon18
+noctaves	include/ccv.h	/^	int noctaves; \/**< Number of octaves. *\/$/;"	m	struct:__anon47
+node	include/ccv.h	/^	ccv_scd_tree_feature_t node[3];$/;"	m	struct:__anon85
+node	include/ccv.h	/^	} node;$/;"	m	struct:__anon101	typeref:struct:__anon101::__anon103
+node	plumber/plumbing.h	/^struct node {$/;"	s
+nodeEqauls	controllers/mapping.c	/^bool nodeEqauls(struct node_t* a, struct node_t* b) {$/;"	f
+node_t	controllers/inc/mapping.h	/^struct node_t {$/;"	s
+nodelist	plumber/plumbing.h	/^struct nodelist {$/;"	s
+norm_threshold	include/ccv.h	/^	float norm_threshold; \/**< If norm of the descriptor is smaller than threshold, it will be ignored. *\/$/;"	m	struct:__anon47
+normalize_method	include/ccv.h	/^	int normalize_method;$/;"	m	struct:__anon41
+normalize_threshold	include/ccv.h	/^	float normalize_threshold;$/;"	m	struct:__anon41
+nx	include/ccv.h	/^	int nx[CCV_BBF_POINT_MAX];$/;"	m	struct:__anon63
+ny	include/ccv.h	/^	int ny[CCV_BBF_POINT_MAX];$/;"	m	struct:__anon63
+nz	include/ccv.h	/^	int nz[CCV_BBF_POINT_MAX];$/;"	m	struct:__anon63
+obs_count	include/commtypes.h	/^  int obs_count;$/;"	m	struct:comm_map_update
+obs_x	include/commtypes.h	/^  int* obs_x;$/;"	m	struct:comm_map_update
+obs_y	include/commtypes.h	/^  int* obs_y;$/;"	m	struct:comm_map_update
+obstacle_map	controllers/a_star.c	/^bool obstacle_map[GRID_NUM][GRID_NUM];$/;"	v
+obstacle_map	controllers/mapper.c	/^int obstacle_map[GRID_NUM][GRID_NUM];$/;"	v
+octave	include/ccv.h	/^	int octave;$/;"	m	struct:__anon43
+octave	include/ccv.h	/^	int octave;$/;"	m	struct:__anon78
+odom	player_translator_driver/translator_driver.cc	/^  Device *odom;$/;"	m	class:TranslatorDriver	file:
+odom_addr	player_translator_driver/translator_driver.cc	/^  player_devaddr_t odom_addr; \/\/ "original:localhost:6666:position2d:0"$/;"	m	class:TranslatorDriver	file:
+off	include/ccv.h	/^		uint64_t off;$/;"	m	struct:__anon14::__anon16
+offset	include/ccv.h	/^	int* offset;$/;"	m	struct:__anon18
+openFile	controllers/logger.c	/^int openFile(void) {$/;"	f
+optimizer	include/ccv.h	/^	int optimizer; \/**< CCV_BBF_GENETIC_OPT, using genetic algorithm to search the best weak feature; CCV_BBF_FLOAT_OPT, using float search to improve the found best weak feature. *\/$/;"	m	struct:__anon68
+origin	include/ccv.h	/^	ccv_cache_index_t origin;$/;"	m	struct:__anon17
+out_index	controllers/art_pot.c	/^int data_index, out_index, way_req_index, way_res_index;$/;"	v
+out_index	controllers/filter.c	/^int out_index[PIPE_COUNT - 1];$/;"	v
+out_to_log	controllers/load.c	/^int out_to_log;$/;"	v
+output	include/ccv.h	/^	ccv_convnet_type_t output; \/**< A **ccv_convnet_type_t** specifies the output parameters and structure. *\/$/;"	m	struct:__anon104
+p	include/ccv.h	/^		void* p;$/;"	m	union:__anon8::__anon9
+padding	include/commtypes.h	/^  int padding;$/;"	m	struct:comm_way_req
+params	include/ccv.h	/^	ccv_tld_param_t params;$/;"	m	struct:__anon72
+parseArgs	controllers/a_star.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/art_pot.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/benchmarker.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/empty.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/filter.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/generic_empty.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/load.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/logger.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	controllers/mapper.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	voter/voterd.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseArgs	voter/voterd_r.c	/^int parseArgs(int argc, const char **argv) {$/;"	f
+parseLine	tas_lib/force.c	/^int parseLine(char* line, ssize_t length) {$/;"	f
+parsePipe	voter/voterd.c	/^void parsePipe(const char* serial, struct vote_pipe* pipe) {$/;"	f
+parsePipe	voter/voterd_r.c	/^void parsePipe(const char* serial, struct vote_pipe* pipe) {$/;"	f
+part	include/ccv.h	/^	ccv_comp_t part[CCV_DPM_PART_MAX];$/;"	m	struct:__anon56
+part	include/ccv.h	/^	ccv_dpm_part_classifier_t* part;$/;"	m	struct:__anon58
+partition	include/ccv.h	/^		int partition; \/**< [convolutional.partition] The number of partitions for convolutional filter. *\/$/;"	m	struct:__anon96::__anon97
+partition	include/ccv.h	/^		int partition; \/**< [matrix.partition] The number of partitions of the input matrix, it must be dividable by the number of channels (it is partitioned by channels). *\/$/;"	m	struct:__anon101::__anon102
+parts	include/ccv.h	/^	int parts; \/**< The number of part filters for each root filter. *\/$/;"	m	struct:__anon61
+pass	include/ccv.h	/^	uint32_t pass;$/;"	m	struct:__anon75
+pass	include/ccv.h	/^	uint32_t pass;$/;"	m	struct:__anon85
+patch	include/ccv.h	/^	ccv_size_t patch; \/\/ resized to patch for example-based classifier$/;"	m	struct:__anon72
+peak_threshold	include/ccv.h	/^	float peak_threshold; \/**< Above this threshold, it will be recognized as potential feature point. *\/$/;"	m	struct:__anon47
+peek	controllers/mapping.c	/^struct node_t* peek(struct l_list_t* list, int num) {$/;"	f
+peer_access	include/ccv.h	/^	int peer_access; \/**< Enable peer access for cross device communications or not, this will enable faster multiple device training. *\/$/;"	m	struct:__anon109
+perCyclePedestrian	controllers/load.c	/^void perCyclePedestrian(void) {$/;"	f
+perCyclePrime	controllers/load.c	/^void perCyclePrime(void) {$/;"	f
+percentile_breakdown	include/ccv.h	/^	double percentile_breakdown; \/**< The percentile use for breakdown threshold. 0.05 is the default. *\/$/;"	m	struct:__anon61
+perform_learn	include/ccv.h	/^	int perform_learn; \/**< Whether we performed learning or not this time *\/$/;"	m	struct:__anon73
+perform_track	include/ccv.h	/^	int perform_track; \/**< Whether we performed tracking or not this time *\/$/;"	m	struct:__anon73
+pid	include/replicas.h	/^  pid_t pid; \/\/ The pid of the process$/;"	m	struct:replica
+pipeToBuff	voter/vote_buff.c	/^int pipeToBuff(struct vote_pipe* pipe) {$/;"	f
+pipe_count	controllers/a_star.c	/^int pipe_count = PIPE_COUNT;$/;"	v
+pipe_count	controllers/art_pot.c	/^int pipe_count = PIPE_COUNT; \/\/ 4 with a planner, 2 otherwise$/;"	v
+pipe_count	controllers/empty.c	/^int pipe_count = PIPE_COUNT;$/;"	v
+pipe_count	controllers/filter.c	/^int pipe_count = PIPE_COUNT;$/;"	v
+pipe_count	controllers/generic_empty.c	/^int pipe_count = PIPE_COUNT;$/;"	v
+pipe_count	controllers/load.c	/^int pipe_count = PIPE_COUNT;$/;"	v
+pipe_count	controllers/logger.c	/^int pipe_count = PIPE_COUNT;$/;"	v
+pipe_count	controllers/mapper.c	/^int pipe_count = PIPE_COUNT;$/;"	v
+pipe_count	include/replicas.h	/^  int pipe_count;$/;"	m	struct:replica
+pipe_count	plumber/plumbing.h	/^	int pipe_count;$/;"	m	struct:node
+pipe_count	test/micro_test/empty_restart.c	/^int pipe_count = 2;$/;"	v
+pipe_count	voter/voterd.c	/^int pipe_count = 0;$/;"	v
+pipe_count	voter/voterd_r.c	/^int pipe_count = 0;$/;"	v
+pipes	controllers/a_star.c	/^struct typed_pipe pipes[PIPE_COUNT]; \/\/ Map updates in 0, waypoint request in 1, waypoints out 2$/;"	v	typeref:struct:typed_pipe
+pipes	controllers/art_pot.c	/^struct typed_pipe pipes[PIPE_COUNT]; \/\/ 0 is data_in, 1 is cmd_out$/;"	v	typeref:struct:typed_pipe
+pipes	controllers/empty.c	/^struct typed_pipe pipes[PIPE_COUNT];$/;"	v	typeref:struct:typed_pipe
+pipes	controllers/filter.c	/^struct typed_pipe pipes[PIPE_COUNT];$/;"	v	typeref:struct:typed_pipe
+pipes	controllers/generic_empty.c	/^struct typed_pipe pipes[PIPE_COUNT];$/;"	v	typeref:struct:typed_pipe
+pipes	controllers/load.c	/^struct typed_pipe pipes[PIPE_COUNT];$/;"	v	typeref:struct:typed_pipe
+pipes	controllers/logger.c	/^struct typed_pipe pipes[PIPE_COUNT];$/;"	v	typeref:struct:typed_pipe
+pipes	controllers/mapper.c	/^struct typed_pipe pipes[PIPE_COUNT];$/;"	v	typeref:struct:typed_pipe
+pipes	plumber/plumbing.h	/^	struct typed_pipe pipes[PIPE_LIMIT];$/;"	m	struct:node	typeref:struct:node::typed_pipe
+pipes	test/micro_test/empty_bench.c	/^struct vote_pipe pipes[PIPE_LIMIT];$/;"	v	typeref:struct:vote_pipe
+pipes	test/test.h	/^struct vote_pipe pipes[PIPE_LIMIT];$/;"	v	typeref:struct:vote_pipe
+pitch	include/ccv.h	/^	float roll, pitch, yaw;$/;"	m	struct:__anon34
+player_driver_init	player_translator_driver/translator_driver.cc	/^  int player_driver_init(DriverTable* table)$/;"	f
+pnum	include/ccv.h	/^	int pnum;$/;"	m	struct:__anon56
+point	include/ccv.h	/^	ccv_decimal_point_t point;$/;"	m	struct:__anon40
+point	include/commtypes.h	/^  double point[3];$/;"	m	struct:comm_way_res
+point_d	controllers/inc/mapping.h	/^struct point_d {$/;"	s
+point_i	controllers/inc/mapping.h	/^struct point_i {$/;"	s
+pool	include/ccv.h	/^	} pool;$/;"	m	union:__anon96	typeref:struct:__anon96::__anon98
+pop	controllers/mapping.c	/^struct node_t* pop(struct l_list_t** list) {$/;"	f
+pos	controllers/art_pot.c	/^double pos[3];$/;"	v
+pos_crit	include/ccv.h	/^	double pos_crit; \/**< Positive criteria or the targeted recall ratio, BBF classifier tries to adjust the constant to meet this criteria. *\/$/;"	m	struct:__anon68
+pose	controllers/a_star.c	/^struct point_i* pose;$/;"	v	typeref:struct:point_i
+pose	controllers/filter.c	/^double pose[3];$/;"	v
+pose	controllers/logger.c	/^double pose[3];$/;"	v
+pose	include/ccv.h	/^		ccv_decimal_pose_t pose;$/;"	m	union:__anon52::__anon53
+pose	include/commtypes.h	/^  double pose[3];$/;"	m	struct:comm_range_pose_data
+pose	player_translator_driver/translator_driver.cc	/^  double pose[3];$/;"	m	class:TranslatorDriver	file:
+pose_x	include/commtypes.h	/^  int pose_x, pose_y;$/;"	m	struct:comm_map_update
+pose_y	include/commtypes.h	/^  int pose_x, pose_y;$/;"	m	struct:comm_map_update
+posterior	include/ccv.h	/^	float* posterior;$/;"	m	struct:__anon70
+posteriors	include/ccv.h	/^	int posteriors;$/;"	m	struct:__anon70
+prev_time	controllers/logger.c	/^timestamp_t prev_time = 0;$/;"	v
+prev_x	controllers/logger.c	/^double prev_x = -7.0, prev_y = -7.0;$/;"	v
+prev_y	controllers/logger.c	/^double prev_x = -7.0, prev_y = -7.0;$/;"	v
+prime	include/ccv.h	/^	int prime;$/;"	m	struct:__anon12
+prime	include/ccv.h	/^	int prime;$/;"	m	struct:ccv_dense_vector_t
+printBuffer	src/commtypes.c	/^void printBuffer(struct typed_pipe* pipe, char *buffer, int buff_count) {$/;"	f
+printList	controllers/mapping.c	/^void printList(struct l_list_t* list) {$/;"	f
+printMap	controllers/mapping.c	/^void printMap(bool obs_map[][GRID_NUM], struct l_list_t* path) {$/;"	f
+printRegs	fault_injection/print_registers.h	/^void printRegs(struct user_regs_struct * regs) {$/;"	f
+printVoteBuff	voter/vote_buff.c	/^void printVoteBuff(struct vote_pipe *vp) {$/;"	f
+print_nodes	plumber/plumbing.c	/^void print_nodes(struct nodelist* nodes)$/;"	f
+priority	controllers/a_star.c	/^int priority;$/;"	v
+priority	controllers/art_pot.c	/^int priority;$/;"	v
+priority	controllers/benchmarker.c	/^int priority;$/;"	v
+priority	controllers/empty.c	/^int priority;$/;"	v
+priority	controllers/filter.c	/^int priority;$/;"	v
+priority	controllers/generic_empty.c	/^int priority;$/;"	v
+priority	controllers/load.c	/^int priority;$/;"	v
+priority	controllers/logger.c	/^int priority;$/;"	v
+priority	controllers/mapper.c	/^int priority;$/;"	v
+priority	include/replicas.h	/^  int priority;$/;"	m	struct:replica
+priority	plumber/plumbing.h	/^	char* priority;$/;"	m	struct:node
+processData	voter/voterd.c	/^void processData(struct vote_pipe *pipe, int pipe_index) {$/;"	f
+processData	voter/voterd_r.c	/^void processData(struct vote_pipe *pipe, int pipe_index) {$/;"	f
+processFromRep	voter/voterd.c	/^void processFromRep(int replica_num, int pipe_num) {$/;"	f
+processFromRep	voter/voterd_r.c	/^void processFromRep(int replica_num, int pipe_num) {$/;"	f
+prune_feature	include/ccv.h	/^		int prune_feature; \/**< [stop_criteria.prune_feature] How many features a prune stage should have, it should be a very small number to enable efficient pruning. *\/$/;"	m	struct:__anon89::__anon91
+prune_stage	include/ccv.h	/^		int prune_stage; \/**< [stop_criteria.prune_stage] How many stages will act as "prune" stage, which means will take minimal effort to prune as much negative areas as possible. *\/$/;"	m	struct:__anon89::__anon91
+push	controllers/mapping.c	/^void push(struct l_list_t** list, struct node_t* node) {$/;"	f
+px	include/ccv.h	/^	int px[CCV_BBF_POINT_MAX];$/;"	m	struct:__anon63
+py	include/ccv.h	/^	int py[CCV_BBF_POINT_MAX];$/;"	m	struct:__anon63
+pz	include/ccv.h	/^	int pz[CCV_BBF_POINT_MAX];$/;"	m	struct:__anon63
+rad_q_no	include/ccv.h	/^	int rad_q_no;$/;"	m	struct:__anon41
+radius	include/ccv.h	/^	double radius; \/**< the Gaussian radius. *\/$/;"	m	struct:__anon41
+range	include/ccv.h	/^	int range; \/* from 0 to range, inclusive *\/$/;"	m	struct:__anon48
+range_pose_data_msg	controllers/benchmarker.c	/^struct comm_range_pose_data range_pose_data_msg;$/;"	v	typeref:struct:comm_range_pose_data
+range_through	include/ccv.h	/^		int range_through; \/**< [feature.range_through] The step size to increase feature dimensions. *\/$/;"	m	struct:__anon89::__anon90
+ranger	player_translator_driver/translator_driver.cc	/^  Device *ranger;$/;"	m	class:TranslatorDriver	file:
+ranger_addr	player_translator_driver/translator_driver.cc	/^  player_devaddr_t ranger_addr; \/\/ "original:localhost:6666:ranger:0"$/;"	m	class:TranslatorDriver	file:
+ranger_count	controllers/art_pot.c	/^int ranger_count = 16;$/;"	v
+ranger_countdown	player_translator_driver/translator_driver.cc	/^  int ranger_countdown;$/;"	m	class:TranslatorDriver	file:
+ranges	controllers/art_pot.c	/^double ranges[16]; \/\/ 16 is the size in commtypes.h$/;"	v
+ranges	controllers/filter.c	/^double ranges[RANGER_COUNT] = {0};$/;"	v
+ranges	controllers/logger.c	/^double ranges[RANGER_COUNT] = {0};$/;"	v
+ranges	include/commtypes.h	/^  double ranges[RANGER_COUNT];$/;"	m	struct:comm_range_pose_data
+ratio	include/ccv.h	/^	double ratio; \/**< Increase ratio. *\/$/;"	m	struct:__anon36
+rdtscll	tas_lib/inc/tas_time.h	28;"	d
+readTest	voter/test_buff.c	/^void readTest(struct vote_pipe *vp, int fds[2], int len, char *expected) {$/;"	f
+read_in_index	controllers/empty.c	/^int read_in_index, write_out_index;$/;"	v
+read_in_index	controllers/generic_empty.c	/^int read_in_index, write_out_index;$/;"	v
+rect	include/ccv.h	/^	ccv_rect_t rect;$/;"	m	struct:__anon35
+rect	include/ccv.h	/^	ccv_rect_t rect;$/;"	m	struct:__anon49
+rect	include/ccv.h	/^	ccv_rect_t rect;$/;"	m	struct:__anon55
+rect	include/ccv.h	/^	ccv_rect_t rect;$/;"	m	struct:__anon56
+refcount	include/ccv.h	/^	int refcount;$/;"	m	struct:__anon12
+refcount	include/ccv.h	/^	int refcount;$/;"	m	struct:__anon18
+refcount	include/ccv.h	/^	int refcount;$/;"	m	struct:__anon31
+refcount	include/ccv.h	/^	int refcount;$/;"	m	struct:__anon8
+regular	include/ccv.h	/^		} regular;$/;"	m	union:__anon43::__anon44	typeref:struct:__anon43::__anon44::__anon46
+relabels	include/ccv.h	/^	int relabels; \/**< How many relabel procedures are needed. *\/$/;"	m	struct:__anon61
+relu	include/ccv.h	/^		int relu; \/**< [full_connect.relu] 0 - ReLU, 1 - no ReLU *\/$/;"	m	struct:__anon96::__anon100
+removeNode	controllers/mapping.c	/^void removeNode(struct l_list_t** list, struct node_t* node) {$/;"	f
+rep	player_translator_driver/translator_driver.cc	/^  struct replica rep;$/;"	m	class:TranslatorDriver	typeref:struct:TranslatorDriver::replica	file:
+rep	test/micro_test/empty_bench.c	/^struct replica rep;$/;"	v	typeref:struct:replica
+rep	test/test.h	/^struct replica rep;$/;"	v	typeref:struct:replica
+rep_count	test/micro_test/empty_restart.c	/^int rep_count = DMR;$/;"	v
+rep_count	voter/voterd.c	/^int rep_count;$/;"	v
+rep_count	voter/voterd_r.c	/^int rep_count;$/;"	v
+rep_gap	src/replicas.c	/^int rep_gap(struct replica reps[], int num, int rep_num) {$/;"	f
+rep_info	include/vote_buff.h	/^	char *rep_info; \/\/ extra string passed on to the replica. For example, the pipe's type$/;"	m	struct:vote_pipe
+rep_pipes	include/replicas.h	/^  struct vote_pipe rep_pipes[PIPE_LIMIT]; \/\/ rep side of pipes$/;"	m	struct:replica	typeref:struct:replica::vote_pipe
+rep_strat	plumber/plumbing.h	/^	replication_t rep_strat;$/;"	m	struct:node
+rep_type	plumber/pb.tab.c	/^  replication_t rep_type;$/;"	m	union:YYSTYPE	file:
+rep_type	plumber/pb.tab.h	/^  replication_t rep_type;$/;"	m	union:YYSTYPE
+rep_type	voter/voterd.c	/^replication_t rep_type;$/;"	v
+rep_type	voter/voterd_r.c	/^replication_t rep_type;$/;"	v
+replica	controllers/benchmarker.c	/^struct replica replica;$/;"	v	typeref:struct:replica
+replica	include/replicas.h	/^struct replica {$/;"	s
+replica_priority	voter/voterd.c	/^int replica_priority;$/;"	v
+replicas	test/micro_test/empty_restart.c	/^struct replica replicas[2];$/;"	v	typeref:struct:replica
+replicas	voter/voterd.c	/^struct replica replicas[REP_MAX];$/;"	v	typeref:struct:replica
+replicas	voter/voterd_r.c	/^struct replica replicas[REP_MAX];$/;"	v	typeref:struct:replica
+replication_t	include/vote_buff.h	/^typedef enum {NONE, RSMR, SMR, DMR, TMR, REP_TYPE_ERROR} replication_t;$/;"	t	typeref:enum:__anon113
+reptypeToCount	voter/vote_buff.c	/^int reptypeToCount(replication_t type) {$/;"	f
+reptypeToEnum	voter/vote_buff.c	/^replication_t reptypeToEnum(char* type) {$/;"	f
+requestFDS	src/fd_client.c	/^int requestFDS(int sock_fd, struct typed_pipe* pipes, int pipe_count) {$/;"	f
+reserved	include/ccv.h	/^	void* reserved;$/;"	m	struct:__anon105
+reserved	include/ccv.h	/^	void* reserved;$/;"	m	struct:__anon106
+resetPipe	src/commtypes.c	/^void resetPipe(struct typed_pipe* pipe) {$/;"	f
+resetVotePipe	voter/vote_buff.c	/^void resetVotePipe(struct vote_pipe* pipe) {$/;"	f
+restartHandler	src/controller.c	/^static void restartHandler(int signo, siginfo_t *si, void *unused) {$/;"	f	file:
+restartReplica	src/replicas.c	/^void restartReplica(struct replica reps[], int num, struct server_data *sd, struct vote_pipe ext_pipes[], int restarter, int restartee, int default_priority) {$/;"	f
+restart_prep	voter/voterd.c	/^void restart_prep(int restartee, int restarter) {$/;"	f
+restart_prep	voter/voterd_r.c	/^void restart_prep(int restartee, int restarter) {$/;"	f
+returnPipes	voter/voterd.c	/^void returnPipes(int rep_num, char **buffer, int *buff_count) {  $/;"	f
+returnPipes	voter/voterd_r.c	/^void returnPipes(int rep_num, char **buffer, int *buff_count) {  $/;"	f
+rho	include/ccv.h	/^	double rho; \/**< Decrease ratio. *\/$/;"	m	struct:__anon36
+right	include/ccv.h	/^	int right;$/;"	m	struct:__anon28
+rnorm	include/ccv.h	/^	} rnorm;$/;"	m	union:__anon96	typeref:struct:__anon96::__anon99
+rnum	include/ccv.h	/^	int rnum;$/;"	m	struct:__anon31
+rnum	include/ccv.h	/^	int* rnum;$/;"	m	struct:__anon70
+rnum	include/ccv.h	/^	uint32_t rnum;$/;"	m	struct:__anon17
+roll	include/ccv.h	/^	float roll, pitch, yaw;$/;"	m	struct:__anon34
+root	include/ccv.h	/^	ccv_dpm_part_classifier_t root;$/;"	m	struct:__anon58
+root	include/ccv.h	/^	ccv_dpm_root_classifier_t* root;$/;"	m	struct:__anon59
+root_relabels	include/ccv.h	/^	int root_relabels; \/**< How many relabel procedures for root classifier are needed. *\/$/;"	m	struct:__anon61
+rotation	include/ccv.h	/^	int rotation; \/**< When >= 1, using "rotation" technique, which, only evaluate a subset of sliding windows for each frame, but after rotation + 1 frames, every sliding window will be evaluated in one of these frames. *\/$/;"	m	struct:__anon71
+rows	include/ccv.h	/^		int rows; \/**< [convolutional.rows] The number of rows for convolutional filter. *\/$/;"	m	struct:__anon96::__anon97
+rows	include/ccv.h	/^		int rows; \/**< [matrix.rows] The number of rows of the input matrix. *\/$/;"	m	struct:__anon101::__anon102
+rows	include/ccv.h	/^	int rows;$/;"	m	struct:__anon106
+rows	include/ccv.h	/^	int rows;$/;"	m	struct:__anon12
+rows	include/ccv.h	/^	int rows;$/;"	m	struct:__anon18
+rows	include/ccv.h	/^	int rows;$/;"	m	struct:__anon8
+rsize	include/ccv.h	/^	int rsize;$/;"	m	struct:__anon31
+runExperiment	controllers/configs/empty_variants/run_empty_restart_test.sh	/^runExperiment () {$/;"	f
+runExperiment	controllers/configs/run_micro_test.sh	/^runExperiment () {$/;"	f
+same_word_thresh	include/ccv.h	/^	double same_word_thresh[2]; \/**< Overlapping more than 0.1 of the bigger one (0), and 0.9 of the smaller one (1) *\/$/;"	m	struct:__anon51
+sat	include/ccv.h	/^	ccv_point_t sat[CCV_ICF_SAT_MAX * 2];$/;"	m	struct:__anon74
+scale	include/ccv.h	/^			double scale;$/;"	m	struct:__anon43::__anon44::__anon46
+scale_invariant	include/ccv.h	/^	int scale_invariant; \/**< Enable scale invariant swt (to scale to different sizes and then combine the results) *\/$/;"	m	struct:__anon51
+scales	include/ccv.h	/^	int scales;$/;"	m	struct:__anon70
+sched_set_policy	tas_lib/taslimited.c	/^int sched_set_policy(const pid_t pid, const int priority) {$/;"	f
+sd	test/a_star_test.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/art_pot_test.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/empty_test.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/filter_test.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/generic_empty_test.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/load_test.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/mapper_test.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/micro_test/empty_bench.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	test/micro_test/empty_restart.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	voter/voterd.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+sd	voter/voterd_r.c	/^struct server_data sd;$/;"	v	typeref:struct:server_data
+search_str	fault_injection/injector.py	/^		search_str = 'ps -a | grep "' + name + '" | grep -v "Test" | grep -v "defunct"'$/;"	v
+sendFDS	src/fd_server.c	/^int sendFDS(int connection_fd, struct vote_pipe* pipes, int pipe_count) { \/\/ pipes are the rep side$/;"	f
+sendPipe	voter/voterd.c	/^void sendPipe(int pipe_num, int replica_num) {$/;"	f
+sendPipe	voter/voterd_r.c	/^void sendPipe(int pipe_num, int replica_num) {$/;"	f
+sendWaypoints	controllers/a_star.c	/^void sendWaypoints(void) {$/;"	f
+send_msg	controllers/mapper.c	/^struct comm_map_update send_msg;$/;"	v	typeref:struct:comm_map_update
+serializePipe	src/commtypes.c	/^char* serializePipe(struct typed_pipe pipe) {$/;"	f
+serializeRep	plumber/plumbing.c	/^char* serializeRep(replication_t rep_type) {$/;"	f
+server_data	include/fd_server.h	/^struct server_data {$/;"	s
+set	include/ccv.h	/^		uint64_t set;$/;"	m	struct:__anon14::__anon15
+set	include/ccv.h	/^	ccv_array_t* set;$/;"	m	struct:__anon35
+setPipeIndexes	controllers/a_star.c	/^void setPipeIndexes(void) {$/;"	f
+setPipeIndexes	controllers/art_pot.c	/^void setPipeIndexes(void) {$/;"	f
+setPipeIndexes	controllers/empty.c	/^void setPipeIndexes(void) {$/;"	f
+setPipeIndexes	controllers/filter.c	/^void setPipeIndexes(void) {$/;"	f
+setPipeIndexes	controllers/generic_empty.c	/^void setPipeIndexes(void) {$/;"	f
+setPipeIndexes	controllers/load.c	/^void setPipeIndexes(void) {$/;"	f
+setPipeIndexes	controllers/logger.c	/^void setPipeIndexes(void) {$/;"	f
+setPipeIndexes	controllers/mapper.c	/^void setPipeIndexes(void) {$/;"	f
+setupPipe	voter/test_buff.c	/^void setupPipe(struct vote_pipe *vp, int to_rep[], int from_rep[]) {$/;"	f
+sfmt	include/ccv.h	/^	void* sfmt;$/;"	m	struct:__anon72
+sgd_frequency	include/ccv.h	/^	int sgd_frequency; \/**< After how many batches when we do a SGD update. *\/$/;"	m	struct:__anon109
+shift	include/ccv.h	/^	float shift; \/**< How much steps sliding window should move *\/$/;"	m	struct:__anon71
+short	plumber/pb.tab.c	159;"	d	file:
+sig	include/ccv.h	/^	double sig; \/**< Sigma. *\/$/;"	m	struct:__anon36
+sig	include/ccv.h	/^	uint64_t sig;$/;"	m	struct:__anon12
+sig	include/ccv.h	/^	uint64_t sig;$/;"	m	struct:__anon18
+sig	include/ccv.h	/^	uint64_t sig;$/;"	m	struct:__anon31
+sig	include/ccv.h	/^	uint64_t sig;$/;"	m	struct:__anon8
+sign	include/ccv.h	/^		uint64_t sign;$/;"	m	struct:__anon14::__anon16
+size	include/ccv.h	/^		int size; \/**< [pool.size] The window size for pooling layer. *\/$/;"	m	struct:__anon96::__anon98
+size	include/ccv.h	/^		int size; \/**< [rnorm.size] The size of local response normalization layer. *\/$/;"	m	struct:__anon96::__anon99
+size	include/ccv.h	/^	ccv_size_t size; \/**< A **ccv_size_t** structure that defines the width and height of the classifier. *\/$/;"	m	struct:__anon80
+size	include/ccv.h	/^	ccv_size_t size; \/**< The smallest object size that will be interesting to us. *\/$/;"	m	struct:__anon67
+size	include/ccv.h	/^	ccv_size_t size; \/**< The smallest object size that will be interesting to us. *\/$/;"	m	struct:__anon88
+size	include/ccv.h	/^	ccv_size_t size; \/**< What's the window size of the final classifier. *\/$/;"	m	struct:__anon89
+size	include/ccv.h	/^	ccv_size_t size; \/\/ this is the size includes the margin$/;"	m	struct:__anon77
+size	include/ccv.h	/^	ccv_size_t size;$/;"	m	struct:__anon65
+size	include/ccv.h	/^	ccv_size_t size;$/;"	m	struct:__anon86
+size	include/ccv.h	/^	int size; \/**< Parameters for [Canny edge detector](\/lib\/ccv-classic). *\/$/;"	m	struct:__anon51
+size	include/ccv.h	/^	int size;$/;"	m	struct:__anon31
+size	include/ccv.h	/^	int size;$/;"	m	struct:__anon35
+size	include/ccv.h	/^	int size;$/;"	m	struct:__anon49
+size	include/ccv.h	/^	int size;$/;"	m	struct:__anon63
+size	include/ccv.h	/^	size_t size;$/;"	m	struct:__anon17
+sock_fd	include/fd_server.h	/^  int sock_fd;$/;"	m	struct:server_data
+sort_val	controllers/inc/mapping.h	/^  double sort_val;$/;"	m	struct:l_list_t
+stage_classifier	include/ccv.h	/^	ccv_bbf_stage_classifier_t* stage_classifier;$/;"	m	struct:__anon65
+startReplicas	src/replicas.c	/^void startReplicas(struct replica reps[], int num, struct server_data *sd, const char* name, struct vote_pipe ext_pipes[], int pipe_count, int default_priority) {$/;"	f
+status	include/ccv.h	/^	uint8_t status;$/;"	m	struct:__anon40
+std_ratio	include/ccv.h	/^	double std_ratio; \/**< The inner-class standard derivation when grouping letters. *\/$/;"	m	struct:__anon51
+stealPipes	voter/voterd.c	/^void stealPipes(int rep_num, char **buffer, int *buff_count) {$/;"	f
+stealPipes	voter/voterd_r.c	/^void stealPipes(int rep_num, char **buffer, int *buff_count) {$/;"	f
+step	include/ccv.h	/^	int step;$/;"	m	struct:__anon8
+step	include/ccv.h	/^	int step;$/;"	m	struct:ccv_dense_vector_t
+step_through	include/ccv.h	/^		int step_through; \/**< [feature.step_through] The step size to move to cover the whole window size. *\/$/;"	m	struct:__anon89::__anon90
+step_through	include/ccv.h	/^	int step_through; \/**< The step size for detection. *\/$/;"	m	struct:__anon79
+step_through	include/ccv.h	/^	int step_through; \/**< The step size for detection. *\/$/;"	m	struct:__anon88
+stop_criteria	include/ccv.h	/^	} stop_criteria;$/;"	m	struct:__anon89	typeref:struct:__anon89::__anon91
+str	plumber/pb.tab.c	/^  char* str;$/;"	m	union:YYSTYPE	file:
+str	plumber/pb.tab.h	/^  char* str;$/;"	m	union:YYSTYPE
+strides	include/ccv.h	/^		int strides; \/**< [convolutional.strides] The strides for convolutional filter. *\/$/;"	m	struct:__anon96::__anon97
+strides	include/ccv.h	/^		int strides; \/**< [pool.strides] The strides for pooling layer. *\/$/;"	m	struct:__anon96::__anon98
+structs	include/ccv.h	/^	int structs; \/**< How many ferns in the classifier *\/$/;"	m	struct:__anon71
+structs	include/ccv.h	/^	int structs;$/;"	m	struct:__anon70
+sv	include/ccv.h	/^	ccv_array_t* sv[2]; \/\/ example-based classifier$/;"	m	struct:__anon72
+sx	include/ccv.h	/^	int sx;$/;"	m	struct:__anon83
+sx	include/ccv.h	/^	int sx[4];$/;"	m	struct:__anon81
+sy	include/ccv.h	/^	int sy;$/;"	m	struct:__anon83
+sy	include/ccv.h	/^	int sy[4];$/;"	m	struct:__anon81
+symmetric	include/ccv.h	/^	int symmetric; \/**< Whether to exploit symmetric property of the object. *\/$/;"	m	struct:__anon61
+symmetric	include/ccv.h	/^	int symmetric; \/**< Whether to exploit the symmetric property of the provided examples. *\/$/;"	m	struct:__anon109
+t_pipes	test/a_star_test.c	/^struct typed_pipe t_pipes[PIPE_LIMIT];$/;"	v	typeref:struct:typed_pipe
+t_pipes	test/load_test.c	/^struct typed_pipe t_pipes[PIPE_LIMIT];$/;"	v	typeref:struct:typed_pipe
+tag	include/ccv.h	/^	} tag;$/;"	m	struct:__anon12	typeref:union:__anon12::__anon13
+tag	include/ccv.h	/^	} tag;$/;"	m	struct:__anon18	typeref:union:__anon18::__anon19
+tag	include/ccv.h	/^	} tag;$/;"	m	struct:__anon8	typeref:union:__anon8::__anon9
+tail	controllers/inc/mapping.h	/^  struct l_list_t* tail;$/;"	m	struct:l_list_t	typeref:struct:l_list_t::l_list_t
+terminal	include/ccv.h	/^	} terminal;$/;"	m	union:__anon14	typeref:struct:__anon14::__anon16
+testCFEHandler	src/controller.c	/^void testCFEHandler(int signo, siginfo_t *si, void *unused) {$/;"	f
+testSDCHandler	src/controller.c	/^void testSDCHandler(int signo, siginfo_t *si, void *unused) {$/;"	f
+th_q_no	include/ccv.h	/^	int th_q_no;$/;"	m	struct:__anon41
+thickness_ratio	include/ccv.h	/^	double thickness_ratio; \/**< The allowable thickness variance when grouping letters. *\/$/;"	m	struct:__anon51
+threshold	include/ccv.h	/^	float threshold; \/**< The threshold the determines the acceptance of an object. *\/$/;"	m	struct:__anon60
+threshold	include/ccv.h	/^	float threshold;$/;"	m	struct:__anon64
+threshold	include/ccv.h	/^	float threshold;$/;"	m	struct:__anon70
+threshold	include/ccv.h	/^	float threshold;$/;"	m	struct:__anon75
+threshold	include/ccv.h	/^	float threshold;$/;"	m	struct:__anon79
+threshold	include/ccv.h	/^	float threshold;$/;"	m	struct:__anon82
+threshold	include/ccv.h	/^	float threshold;$/;"	m	struct:__anon85
+time_elapsed	controllers/logger.c	/^double time_elapsed = 0.0;$/;"	v
+timed	include/vote_buff.h	/^	bool timed; \/\/ timers start on input timed pipe reads, reset on output timed pipe writes$/;"	m	struct:vote_pipe
+timed	plumber/plumbing.h	/^	int timed[PIPE_LIMIT]; \/\/ Used only for Voters.$/;"	m	struct:node
+timer_start_index	voter/voterd.c	/^int timer_start_index;$/;"	v
+timer_start_index	voter/voterd_r.c	/^int timer_start_index;$/;"	v
+timer_started	voter/voterd.c	/^bool timer_started = false;$/;"	v
+timer_started	voter/voterd_r.c	/^bool timer_started = false;$/;"	v
+timer_stop_index	voter/voterd.c	/^int timer_stop_index;$/;"	v
+timer_stop_index	voter/voterd_r.c	/^int timer_stop_index;$/;"	v
+timestamp_t	tas_lib/inc/tas_time.h	/^typedef cycle_t timestamp_t;$/;"	t
+top	include/ccv.h	/^	ccv_array_t* top; \/\/ top matches$/;"	m	struct:__anon72
+top	include/ccv.h	/^	int top;$/;"	m	struct:__anon28
+top_n	include/ccv.h	/^	int top_n; \/**< Only keep these much positive detections when applying ferns classifier *\/$/;"	m	struct:__anon71
+total	test/display_runs.py	/^				total = total + (value \/ 3092.0);$/;"	v
+total	test/display_runs.py	/^	total = 0;$/;"	v
+track_deform	include/ccv.h	/^	int track_deform; \/**< Number of deformations should be applied at running time *\/$/;"	m	struct:__anon71
+track_deform_angle	include/ccv.h	/^	float track_deform_angle; \/**< The maximal angle for x, y and z axis rotation at running time *\/$/;"	m	struct:__anon71
+track_deform_scale	include/ccv.h	/^	float track_deform_scale; \/**< The maximal scale for the deformation at running time *\/$/;"	m	struct:__anon71
+track_deform_shift	include/ccv.h	/^	float track_deform_shift; \/**< The maximal shift for the deformation at running time *\/$/;"	m	struct:__anon71
+track_success	include/ccv.h	/^	int track_success; \/**< If we have a successful tracking (thus, short term tracker works) *\/$/;"	m	struct:__anon73
+trans_pipes	controllers/benchmarker.c	/^struct typed_pipe trans_pipes[2];$/;"	v	typeref:struct:typed_pipe
+tree	include/ccv.h	/^		ccv_scd_decision_tree_t* tree;$/;"	m	struct:__anon86::__anon87
+type	include/ccv.h	/^		uint64_t type;$/;"	m	struct:__anon14::__anon16
+type	include/ccv.h	/^	int type; \/**< One of following value to specify the network layer type, **CCV_CONVNET_CONVOLUTIONAL**, **CCV_CONVNET_FULL_CONNECT**, **CCV_CONVNET_MAX_POOL**, **CCV_CONVNET_AVERAGE_POOL**, **CCV_CONVNET_LOCAL_RESPONSE_NORM**. *\/$/;"	m	struct:__anon104
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon105
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon12
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon18
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon31
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon77
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon78
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon8
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon85
+type	include/ccv.h	/^	int type;$/;"	m	struct:__anon93
+type	include/commtypes.h	/^  comm_message_t type;$/;"	m	struct:typed_pipe
+typed_pipe	include/commtypes.h	/^struct typed_pipe {$/;"	s
+u8	include/ccv.h	/^		unsigned char u8;$/;"	m	union:__anon8::__anon9
+u8	include/ccv.h	/^	unsigned char* u8;$/;"	m	union:__anon7
+unput	plumber/lex.yy.c	188;"	d	file:
+up	include/ccv.h	/^	size_t up;$/;"	m	struct:__anon17
+up2x	include/ccv.h	/^	int up2x; \/**< If upscale the image for better SIFT accuracy. *\/$/;"	m	struct:__anon47
+updateMap	controllers/mapper.c	/^void updateMap(struct comm_range_pose_data * data) {$/;"	f
+update_index	controllers/mapper.c	/^int data_index, update_index, ack_index; \/\/ Data from range pose, updates to planner, planner acks.$/;"	v
+updates_index	controllers/a_star.c	/^int updates_index, ack_index, way_req_index, way_res_index;$/;"	v
+use_cwc_accel	include/ccv.h	/^	int use_cwc_accel; \/\/ use "ccv with cuda" acceleration$/;"	m	struct:__anon106
+validate_set	include/ccv.h	/^	float validate_set; \/**< For the conservative confidence score will be only computed on a subset of all positive examples, this value gives how large that subset should be, 0.5 is a reasonable number *\/$/;"	m	struct:__anon71
+value	plumber/plumbing.h	/^	char* value;$/;"	m	struct:node
+value	test/display_runs.py	/^				value = int(line[1:-2])$/;"	v
+var_thres	include/ccv.h	/^	double var_thres; \/\/ computed dynamically from the supplied same$/;"	m	struct:__anon72
+vector	include/ccv.h	/^	ccv_dense_vector_t* vector;$/;"	m	struct:__anon12
+vel_cmd	include/commtypes.h	/^  double vel_cmd[2];$/;"	m	struct:comm_mov_cmd
+verified	include/ccv.h	/^	int verified; \/\/ the last frame is verified, therefore, a successful tracking is verified too$/;"	m	struct:__anon72
+victim_count	fault_injection/injector.py	/^victim_count = 1 # 3 # replicated 3 times$/;"	v
+victim_names	fault_injection/injector.py	/^	victim_names = []$/;"	v
+victim_pids	fault_injection/injector.py	/^	victim_pids = []$/;"	v
+victim_programs	fault_injection/injector.py	/^victim_programs = []$/;"	v
+victim_types	fault_injection/injector.py	/^victim_types = len(victim_programs) # different controllers$/;"	v
+vot_pipes	include/replicas.h	/^  struct vote_pipe vot_pipes[PIPE_LIMIT]; \/\/ Voter side of pipes$/;"	m	struct:replica	typeref:struct:replica::vote_pipe
+vote_pipe	include/vote_buff.h	/^struct vote_pipe {$/;"	s
+voterRestartHandler	voter/voterd.c	/^void voterRestartHandler(void) {$/;"	f
+voterRestartHandler	voter/voterd_r.c	/^void voterRestartHandler(void) {$/;"	f
+voter_name	plumber/plumbing.h	/^	char* voter_name; \/\/ from config file: local_nav = (ArtPot)VoterB$/;"	m	struct:node
+voter_priority	test/micro_test/empty_restart.c	/^int voter_priority = 5;$/;"	v
+voter_priority	voter/voterd.c	/^int voter_priority;$/;"	v
+voter_priority	voter/voterd_r.c	/^int voter_priority;$/;"	v
+voter_rep_in_copy	include/replicas.h	/^  int voter_rep_in_copy[PIPE_LIMIT];       \/\/ Voter needs a copy of the read side of rep pipes$/;"	m	struct:replica
+voter_timer	plumber/plumbing.h	/^	char* voter_timer; \/\/ easier to keep as a char* - needs to be to pass as an arg anyways$/;"	m	struct:node
+voting_timeout	voter/voterd.c	/^long voting_timeout;$/;"	v
+voting_timeout	voter/voterd_r.c	/^long voting_timeout;$/;"	v
+w	include/ccv.h	/^	ccv_convnet_layer_sgd_param_t w; \/**< A **ccv_convnet_layer_sgd_param_t** specifies the stochastic gradient descent update rule for weight, it is only applicable for full connect layer and convolutional layer. *\/$/;"	m	struct:__anon108
+w	include/ccv.h	/^	ccv_dense_matrix_t* w;$/;"	m	struct:__anon57
+w	include/ccv.h	/^	float w[32];$/;"	m	struct:__anon81
+w	include/ccv.h	/^	float* w; \/\/ weight$/;"	m	struct:__anon105
+watchdog	voter/voterd.c	/^timestamp_t watchdog;$/;"	v
+watchdog	voter/voterd_r.c	/^timestamp_t watchdog;$/;"	v
+way_req_index	controllers/a_star.c	/^int updates_index, ack_index, way_req_index, way_res_index;$/;"	v
+way_req_index	controllers/art_pot.c	/^int data_index, out_index, way_req_index, way_res_index;$/;"	v
+way_res_index	controllers/a_star.c	/^int updates_index, ack_index, way_req_index, way_res_index;$/;"	v
+way_res_index	controllers/art_pot.c	/^int data_index, out_index, way_req_index, way_res_index;$/;"	v
+weak_classifier	include/ccv.h	/^	int weak_classifier; \/**< The number of weak classifiers that will be used to construct the strong classifier. *\/$/;"	m	struct:__anon80
+weak_classifiers	include/ccv.h	/^	ccv_icf_decision_tree_t* weak_classifiers;$/;"	m	struct:__anon77
+weigh	include/ccv.h	/^	float weigh[2];$/;"	m	struct:__anon75
+weight_trimming	include/ccv.h	/^	double weight_trimming; \/**< Only consider examples with weights in this percentile for training, this avoid to consider examples with tiny weights. *\/$/;"	m	struct:__anon89
+width	include/ccv.h	/^	int width;$/;"	m	struct:__anon29
+width	include/ccv.h	/^	int width;$/;"	m	struct:__anon30
+win_size	include/ccv.h	/^	ccv_size_t win_size; \/**< The window size to compute optical flow. *\/$/;"	m	struct:__anon71
+wnum	include/ccv.h	/^	size_t wnum; \/\/ the number of weights$/;"	m	struct:__anon105
+writeBuffer	voter/voterd.c	/^void writeBuffer(int fd_out, char* buffer, int buff_count) {$/;"	f
+writeBuffer	voter/voterd_r.c	/^void writeBuffer(int fd_out, char* buffer, int buff_count) {$/;"	f
+writeTest	voter/test_buff.c	/^void writeTest(struct vote_pipe *vp, int fd, char* str, int len) {$/;"	f
+write_out_index	controllers/empty.c	/^int read_in_index, write_out_index;$/;"	v
+write_out_index	controllers/generic_empty.c	/^int read_in_index, write_out_index;$/;"	v
+x	controllers/inc/mapping.h	/^  double x;$/;"	m	struct:point_d
+x	controllers/inc/mapping.h	/^  int x, y;$/;"	m	struct:node_t
+x	controllers/inc/mapping.h	/^  int x;$/;"	m	struct:point_i
+x	include/ccv.h	/^	float x, y, a, b;$/;"	m	struct:__anon34
+x	include/ccv.h	/^	float x, y;$/;"	m	struct:__anon33
+x	include/ccv.h	/^	float x, y;$/;"	m	struct:__anon43
+x	include/ccv.h	/^	int x, y, z;$/;"	m	struct:__anon57
+x	include/ccv.h	/^	int x, y;$/;"	m	struct:__anon32
+x	include/ccv.h	/^	int x;$/;"	m	struct:__anon30
+x	test/display_runs.py	/^x = []$/;"	v
+y	controllers/inc/mapping.h	/^  double y;$/;"	m	struct:point_d
+y	controllers/inc/mapping.h	/^  int x, y;$/;"	m	struct:node_t
+y	controllers/inc/mapping.h	/^  int y;$/;"	m	struct:point_i
+y	include/ccv.h	/^	float x, y, a, b;$/;"	m	struct:__anon34
+y	include/ccv.h	/^	float x, y;$/;"	m	struct:__anon33
+y	include/ccv.h	/^	float x, y;$/;"	m	struct:__anon43
+y	include/ccv.h	/^	int x, y, z;$/;"	m	struct:__anon57
+y	include/ccv.h	/^	int x, y;$/;"	m	struct:__anon32
+y	include/ccv.h	/^	int y;$/;"	m	struct:__anon30
+y	test/display_runs.py	/^y = []$/;"	v
+yaw	include/ccv.h	/^	float roll, pitch, yaw;$/;"	m	struct:__anon34
+yy_accept	plumber/lex.yy.c	/^static yyconst flex_int16_t yy_accept[43] =$/;"	v	file:
+yy_at_bol	plumber/lex.yy.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	plumber/lex.yy.c	/^static yyconst flex_int16_t yy_base[46] =$/;"	v	file:
+yy_bs_column	plumber/lex.yy.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	plumber/lex.yy.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	plumber/lex.yy.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	plumber/lex.yy.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	plumber/lex.yy.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	plumber/lex.yy.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	plumber/lex.yy.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	plumber/lex.yy.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	plumber/lex.yy.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	plumber/lex.yy.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	plumber/lex.yy.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	plumber/lex.yy.c	/^static yyconst flex_int16_t yy_chk[77] =$/;"	v	file:
+yy_create_buffer	plumber/lex.yy.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	plumber/lex.yy.c	/^static yyconst flex_int16_t yy_def[46] =$/;"	v	file:
+yy_delete_buffer	plumber/lex.yy.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	plumber/lex.yy.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	plumber/lex.yy.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_fatal_error	plumber/lex.yy.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	plumber/lex.yy.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	plumber/lex.yy.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	plumber/lex.yy.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	plumber/lex.yy.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	plumber/lex.yy.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	plumber/lex.yy.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	plumber/lex.yy.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	plumber/lex.yy.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	plumber/lex.yy.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	plumber/lex.yy.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	plumber/lex.yy.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	plumber/lex.yy.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	plumber/lex.yy.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	plumber/lex.yy.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	plumber/lex.yy.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	plumber/lex.yy.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	plumber/lex.yy.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_meta	plumber/lex.yy.c	/^static yyconst flex_int32_t yy_meta[26] =$/;"	v	file:
+yy_n_chars	plumber/lex.yy.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	plumber/lex.yy.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	plumber/lex.yy.c	317;"	d	file:
+yy_nxt	plumber/lex.yy.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	plumber/lex.yy.c	/^static yyconst flex_int16_t yy_nxt[77] =$/;"	v	file:
+yy_reduce_print	plumber/pb.tab.c	/^yy_reduce_print (yytype_int16 *yyssp, YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_scan_buffer	plumber/lex.yy.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	plumber/lex.yy.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_string	plumber/lex.yy.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_set_bol	plumber/lex.yy.c	329;"	d	file:
+yy_set_interactive	plumber/lex.yy.c	319;"	d	file:
+yy_size_t	plumber/lex.yy.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	plumber/pb.tab.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	plumber/lex.yy.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	plumber/lex.yy.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	plumber/lex.yy.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	plumber/pb.tab.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	plumber/pb.tab.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_trans_info	plumber/lex.yy.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	plumber/lex.yy.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	plumber/lex.yy.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	plumber/lex.yy.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyalloc	plumber/pb.tab.c	/^union yyalloc$/;"	u	file:
+yychar	plumber/pb.tab.c	/^int yychar;$/;"	v
+yycheck	plumber/pb.tab.c	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	plumber/pb.tab.c	579;"	d	file:
+yyconst	plumber/lex.yy.c	106;"	d	file:
+yyconst	plumber/lex.yy.c	108;"	d	file:
+yydebug	plumber/pb.tab.c	/^int yydebug;$/;"	v
+yydefact	plumber/pb.tab.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	plumber/pb.tab.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	plumber/pb.tab.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyensure_buffer_stack	plumber/lex.yy.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	plumber/pb.tab.c	578;"	d	file:
+yyerror	plumber/pb.tab.c	/^yyerror(char *s) {$/;"	f
+yyfree	plumber/lex.yy.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	plumber/lex.yy.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	plumber/lex.yy.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	plumber/lex.yy.c	/^int yyget_leng  (void)$/;"	f
+yyget_lineno	plumber/lex.yy.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	plumber/lex.yy.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	plumber/lex.yy.c	/^char *yyget_text  (void)$/;"	f
+yyin	plumber/lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	plumber/lex.yy.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	plumber/lex.yy.c	/^int yyleng;$/;"	v
+yyless	plumber/lex.yy.c	1662;"	d	file:
+yyless	plumber/lex.yy.c	1663;"	d	file:
+yyless	plumber/lex.yy.c	175;"	d	file:
+yylex_destroy	plumber/lex.yy.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	plumber/lex.yy.c	/^int yylineno = 1;$/;"	v
+yylval	plumber/pb.tab.c	/^YYSTYPE yylval;$/;"	v
+yymore	plumber/lex.yy.c	480;"	d	file:
+yynerrs	plumber/pb.tab.c	/^int yynerrs;$/;"	v
+yyout	plumber/lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yypact	plumber/pb.tab.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact_value_is_default	plumber/pb.tab.c	486;"	d	file:
+yyparse	plumber/pb.tab.c	/^yyparse (void)$/;"	f
+yypgoto	plumber/pb.tab.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	plumber/lex.yy.c	/^void yypop_buffer_state (void)$/;"	f
+yypush_buffer_state	plumber/lex.yy.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	plumber/pb.tab.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	plumber/pb.tab.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	plumber/lex.yy.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	plumber/lex.yy.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrline	plumber/pb.tab.c	/^static const yytype_uint8 yyrline[] =$/;"	v	file:
+yyset_debug	plumber/lex.yy.c	/^void yyset_debug (int  bdebug )$/;"	f
+yyset_in	plumber/lex.yy.c	/^void yyset_in (FILE *  in_str )$/;"	f
+yyset_lineno	plumber/lex.yy.c	/^void yyset_lineno (int  line_number )$/;"	f
+yyset_out	plumber/lex.yy.c	/^void yyset_out (FILE *  out_str )$/;"	f
+yyss_alloc	plumber/pb.tab.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	plumber/pb.tab.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	plumber/pb.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	plumber/pb.tab.c	780;"	d	file:
+yystrlen	plumber/pb.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	plumber/pb.tab.c	764;"	d	file:
+yysyntax_error	plumber/pb.tab.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	plumber/pb.tab.c	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yytable_value_is_error	plumber/pb.tab.c	491;"	d	file:
+yyterminate	plumber/lex.yy.c	627;"	d	file:
+yytext	plumber/lex.yy.c	/^char *yytext;$/;"	v
+yytext_ptr	plumber/lex.yy.c	354;"	d	file:
+yytname	plumber/pb.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	plumber/pb.tab.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	plumber/pb.tab.c	/^  enum yytokentype$/;"	g	file:
+yytokentype	plumber/pb.tab.h	/^  enum yytokentype$/;"	g
+yytoknum	plumber/pb.tab.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	plumber/pb.tab.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	plumber/pb.tab.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	plumber/pb.tab.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	plumber/pb.tab.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	plumber/pb.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	plumber/pb.tab.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	plumber/pb.tab.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	plumber/pb.tab.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	plumber/pb.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	plumber/lex.yy.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyvs_alloc	plumber/pb.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+z	include/ccv.h	/^	int x, y, z;$/;"	m	struct:__anon57
