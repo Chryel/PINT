@@ -7,7 +7,7 @@ LIB=-lrt -lTASLimited
 FLAGS=-O3 -Werror -static
 #FLAGS=-g -O0 -Werror -static
 
-all: ArtPot AStar BenchMarker Empty Filter Logger Mapper #Load
+all: ArtPot AStar BenchMarker CS Empty Filter Logger Mapper #Load
 
 %.o: %.c
 	gcc -c $(FLAGS) -o $@ $< -I../include/ -I../tas_lib/inc/
@@ -20,6 +20,9 @@ AStar: a_star.o mapping.c $(SRC) $(DEP) ./inc/*.h
 
 BenchMarker: benchmarker.o ../src/commtypes.c ../src/replicas.c ../voter/vote_buff.c $(DEP)
 	gcc $(FLAGS) -o BenchMarker benchmarker.o ../src/commtypes.c ../src/fd_server.c ../src/replicas.c ../voter/vote_buff.c $(INC) $(LIB)
+
+CS: 	cs.o ../src/commtypes.c ../src/replicas.c ../voter/vote_buff.c $(DEP)
+	gcc $(FLAGS) -o CS cs.o ../src/commtypes.c ../src/fd_server.c ../src/replicas.c ../voter/vote_buff.c $(INC) $(LIB)
 
 Empty: empty.o $(SRC) $(DEP)
 	gcc $(FLAGS) -o Empty empty.o $(SRC) $(INC) $(LIB) 
@@ -54,8 +57,11 @@ clean:
 	rm -f ArtPot
 	rm -f AStar
 	rm -f BenchMarker
+	rm -f client
+	rm -f CS
 	rm -f Empty
 	rm -f Filter
 	rm -f Logger
 	rm -f Mapper
 	rm -f Load
+	rm -f server
