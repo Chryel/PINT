@@ -2,7 +2,7 @@
  * Connects to a position2d device (number 1) at the specified IP.
  */
 
-#include "../../static_libplayerc/libplayerc/playerc.h"
+#include <libplayerc/playerc.h>
 
 // from: http://playerstage.sourceforge.net/doc/Player-svn/player/group__libplayerc__example.html
 int main(int argc, const char **argv) {
