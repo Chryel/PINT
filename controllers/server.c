@@ -76,7 +76,7 @@ int main(int count, char *strings[])
 
 		if(inet_ntop(AF_INET, &client_address.sin_addr.s_addr, clntName, sizeof(clntName))!=NULL){
 			//printf("%s/%s\n", clntName, '/', ntohs(client_address.sin_port));
-			printf("%s%s\n", clntName, ntohs(client_address.sin_port));
+			printf("%s%d\n", clntName, ntohs(client_address.sin_port));
 		}
 		else{
 			printf("Address Not Found\n");
