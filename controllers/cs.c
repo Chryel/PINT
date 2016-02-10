@@ -36,6 +36,29 @@ int initCS(){
 }
 
 int main(int argc, const char **argv){
+	pid_t pid = 0;
+
+	pid = fork();
+		
+	//Fork is successful
+	if(pid >= 0){
+		//Current process is a child
+		if(pid = 0){
+			//?
+			if(-1 == exec("plumber", "plumber_parameters")){
+				printf("CS Initial Fork");
+			}
+		}
+		//Current process is a parent
+		else{
+			//Connection to the server made here?
+		}
+	} else{
+		printf("CS - Error while forking");
+		return -1;
+	}
+
+	/*
 	char command[500];
 	if(initCS() < 0){
 		printf("ERROR: Failure in initCS setup.");
@@ -46,4 +69,5 @@ int main(int argc, const char **argv){
 	strcat(command, argv[1]);
 	strcat(command, " 1234");
 	system(command);
+	*/
 }
