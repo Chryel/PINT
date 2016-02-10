@@ -71,18 +71,16 @@ int main(int count, char *strings[])
 	listen(sd, 15);
 	for (;;)
 	{
-		client = accept(sd, 0, 0);
+		client = accept(sd, (struct sockaddr *) &client_address, &client_len);
 		printf("Client accepted.\n");	
 
-		/*	Attempting to find the IP address of the client through the socket connection.
-			---Segmentation Fault---
 		if(inet_ntop(AF_INET, &client_address.sin_addr.s_addr, clntName, sizeof(clntName))!=NULL){
-			printf("%s/%s\n", clntName, '/', ntohs(client_address.sin_port));
+			//printf("%s/%s\n", clntName, '/', ntohs(client_address.sin_port));
+			printf("%s%s\n", clntName, ntohs(client_address.sin_port));
 		}
 		else{
 			printf("Address Not Found\n");
 		}
-		*/
 		
 		if ( client > 0 )
 		{

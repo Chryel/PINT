@@ -7,7 +7,7 @@ LIB=-lrt -lTASLimited
 FLAGS=-O3 -Werror -static
 #FLAGS=-g -O0 -Werror -static
 
-all: ArtPot AStar BenchMarker CS Empty Filter Logger Mapper #Load
+all: ArtPot AStar BenchMarker Client CS Empty Filter Logger Mapper Server #Load
 
 %.o: %.c
 	gcc -c $(FLAGS) -o $@ $< -I../include/ -I../tas_lib/inc/
@@ -20,6 +20,9 @@ AStar: a_star.o mapping.c $(SRC) $(DEP) ./inc/*.h
 
 BenchMarker: benchmarker.o ../src/commtypes.c ../src/replicas.c ../voter/vote_buff.c $(DEP)
 	gcc $(FLAGS) -o BenchMarker benchmarker.o ../src/commtypes.c ../src/fd_server.c ../src/replicas.c ../voter/vote_buff.c $(INC) $(LIB)
+
+Client:
+	gcc client.c -o client
 
 CS: 	cs.o ../src/commtypes.c ../src/replicas.c ../voter/vote_buff.c $(DEP)
 	gcc $(FLAGS) -o CS cs.o ../src/commtypes.c ../src/fd_server.c ../src/replicas.c ../voter/vote_buff.c $(INC) $(LIB)
@@ -41,6 +44,9 @@ Load: load.o $(SRC) $(DEP)
 
 GenericEmpty: generic_empty.o $(SRC) $(DEP)
 	gcc $(FLAGS) -o Empty generic_empty.o $(SRC) $(INC) $(LIB) 
+
+Server:
+	gcc server.c -o server
 
 copy:
 	cp ArtPot $(INSTALL_DIR)
