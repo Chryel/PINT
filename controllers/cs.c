@@ -63,10 +63,15 @@ int initTimer(){
 
 	// Setup the timeout pipe
 	if (pipe(timeout_fd) == -1) {
-		perror("Pipe create fail");
+		perror("Timeout pipe create fail");
 		return -1;
 	}
 
+	if (pipe(heartbeat_fd) == -1){
+		perror("Heartbeat pipe create fail");
+		return -1;
+	}
+		
 	// Setup the signal handler
 	if (signal(SIG, timeout_sighandler) == SIG_ERR) {
 		perror("sigaction failed");
