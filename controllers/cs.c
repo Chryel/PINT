@@ -28,6 +28,7 @@ struct typed_pipe trans_pipes[2];
 char timeout_byte[1] = {'*'};
 char heartbeat_byte[1] = {'h'};
 int timeout_fd[2];
+int heartbeat_fd[2];
 timer_t timerid;
 struct itimerspec its;
 
@@ -110,7 +111,7 @@ void sig_handler(int signum)
 		}
 		else{
 			fprintf(stderr, "Error: Heartbeat Lost\n");
-			write(timeout_fd[1], heartbeat_byte, 1);
+			write(heartbeat_fd[1], heartbeat_byte, 1);
 			system("../stage_control/basic 192.168.69.140");
 			fprintf(stderr, "Error: How did i get here?\n");
 		}
@@ -209,6 +210,9 @@ int clientComm(int count, char *strings[]){
 					FD_ZERO(&select_set);
 					//Check for timeouts
 					FD_SET(timeout_fd[0], &select_set);
+					
+					//Check for hearbeats
+					FD_SET(heartbeat_fd[0], &select_set);
 
 					/*------------RIS check.----------
 					  FD_SET(sim_server_fd, &select_set);
