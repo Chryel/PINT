@@ -71,7 +71,7 @@ int initTimer(){
 		perror("Heartbeat pipe create fail");
 		return -1;
 	}
-		
+
 	// Setup the signal handler
 	if (signal(SIG, timeout_sighandler) == SIG_ERR) {
 		perror("sigaction failed");
@@ -99,13 +99,16 @@ int initTimer(){
 
 }
 
+
+//WARNING - COMM SERVER AND RIS ARE REVERSED, RIS SHOULD DETECT WHEN CS IS DOWN, NOT THE REVERSE.
 void sig_handler(int signum)
 {
 	if ( signum == SIGURG )
 	{   char c;
 		recv(serverfd, &c, sizeof(c), MSG_OOB);
 		got_reply = ( c == 'Y' );                       //Reply received.
-		fprintf(stderr,"Heartbeat Detected\n");
+		write(heartbeat_fd[1], heartbeat_byte, 1);
+		printf("Heartbeat received".);
 	}
 	else if ( signum == SIGALRM )
 		if ( got_reply )
@@ -116,7 +119,7 @@ void sig_handler(int signum)
 		}
 		else{
 			fprintf(stderr, "Error: Heartbeat Lost\n");
-			write(heartbeat_fd[1], heartbeat_byte, 1);
+			write(heartbeat_fd[1], heartsigarbeat_byte, 1);
 			system("../stage_control/basic 192.168.69.140");
 			fprintf(stderr, "Error: How did i get here?\n");
 		}
@@ -165,115 +168,116 @@ int clientComm(int count, char *strings[]){
 		close(serverfd);
 		return 0;
 	}
+}
 
-	int main(int count, char *strings[]){
-		pid_t pid = 0;
+int main(int count, char *strings[]){
+	pid_t pid = 0;
 
-		if(initTimer() < 0){
-			puts("ERROR: initTimer failed.\n");
-			return -1;
-		}
+	if(initTimer() < 0){
+		puts("ERROR: initTimer failed.\n");
+		return -1;
+	}
 
-		//Arm Timer
-		its.it_interval.tv_sec = 0;
-		its.it_interval.tv_nsec = 0;
-		its.it_value.tv_sec = 2;
-		its.it_value.tv_nsec = 0;
+	//Arm Timer
+	its.it_interval.tv_sec = 0;
+	its.it_interval.tv_nsec = 0;
+	its.it_value.tv_sec = 2;
+	its.it_value.tv_nsec = 0;
 
-		if(timer_settime(timerid, 0, &its, NULL) == -1 ){
-			perror("timer_settime failed");
-		}
+	if(timer_settime(timerid, 0, &its, NULL) == -1 ){
+		perror("timer_settime failed");
+	}
 
-		if(initCS() != 0){ 
-			printf("ERROR: Initiation of CS failed"); 
-		}
-		//---Switch to forkReplicas 
-		pid = fork();
+	if(initCS() != 0){ 
+		printf("ERROR: Initiation of CS failed"); 
+	}
+	//---Switch to forkReplicas 
+	pid = fork();
 
-		//Fork is successful
-		if(pid >= 0){
-			//Current process is a child
-			if(pid = 0){
-				//Required to create and traverse nodes for parameters from the cfg file?
-				if(-1 == execv("plumber", 2, 2, pipes[0].fd_in, pipes[1].fd_out )){
-					printf("CS Initial Fork");
-				}
+	//Fork is successful
+	if(pid >= 0){
+		//Current process is a child
+		if(pid = 0){
+			//Required to create and traverse nodes for parameters from the cfg file?
+			if(-1 == execv("plumber", 2, 2, pipes[0].fd_in, pipes[1].fd_out )){
+				printf("CS Initial Fork");
 			}
-			//Current process is a parent
-			else{
-				clientComm(count, strings);
+		}
+		//Current process is a parent
+		else{
+			clientComm(count, strings);
 
-				while(1){
-					int retval = 0;
+			while(1){
+				int retval = 0;
 
-					struct timeval select_timeout;
-					fd_set select_set;	
-					//Timeout for select call.
-					select_timeout.tv_sec = 1;
-					select_timeout.tv_usec = 0;
+				struct timeval select_timeout;
+				fd_set select_set;	
+				//Timeout for select call.
+				select_timeout.tv_sec = 1;
+				select_timeout.tv_usec = 0;
 
-					FD_ZERO(&select_set);
-					//Check for timeouts
-					FD_SET(timeout_fd[0], &select_set);
-					
-					//Check for hearbeats
-					FD_SET(heartbeat_fd[0], &select_set);
+				FD_ZERO(&select_set);
+				//Check for timeouts
+				FD_SET(timeout_fd[0], &select_set);
 
-					/*------------RIS check.----------
-					  FD_SET(sim_server_fd, &select_set);
-					  ---------------------------------*/
+				//Check for hearbeats
+				FD_SET(heartbeat_fd[0], &select_set);
 
-					/*-----Control program check------
-					  FD_SET(control_fd, &select_set);
-					  --------------------------------*/
+				/*------------RIS check.----------
+				  FD_SET(sim_server_fd, &select_set);
+				  ---------------------------------*/
 
-					// This will wait at least timeout until return. Returns earlier if something has data.
-					retval = select(FD_SETSIZE, &select_set, NULL, NULL, &select_timeout);
+				/*-----Control program check------
+				  FD_SET(control_fd, &select_set);
+				  --------------------------------*/
 
-					if (retval > 0) {
-						// One of the fds has data to read
-						// Figure out with one with FD_ISSET
+				// This will wait at least timeout until return. Returns earlier if something has data.
+				retval = select(FD_SETSIZE, &select_set, NULL, NULL, &select_timeout);
 
-						// Check for failed replica (time out)
-						if (FD_ISSET(timeout_fd[0], &select_set)) {
-							char theByte = 'a';
-							// Don't forget to read the character to unset select
-							read(timeout_fd[0], &theByte, sizeof(char));
+				if (retval > 0) {
+					// One of the fds has data to read
+					// Figure out with one with FD_ISSET
 
-							printf("Timeout expired: %c\n", theByte); // What is the answer? Print as %d.
+					// Check for failed replica (time out)
+					if (FD_ISSET(timeout_fd[0], &select_set)) {
+						char theByte = 'a';
+						// Don't forget to read the character to unset select
+						read(timeout_fd[0], &theByte, sizeof(char));
 
-							// rearm the timer
-							its.it_interval.tv_sec = 0;
-							its.it_interval.tv_nsec = 0;
-							its.it_value.tv_sec = 2;
-							its.it_value.tv_nsec = 0;
+						printf("Timeout expired: %c\n", theByte); // What is the answer? Print as %d.
 
-							if (timer_settime(timerid, 0, &its, NULL) == -1) {
-								perror("timer_settime failed");
-							}
+						// rearm the timer
+						its.it_interval.tv_sec = 0;
+						its.it_interval.tv_nsec = 0;
+						its.it_value.tv_sec = 2;
+						its.it_value.tv_nsec = 0;
+
+						if (timer_settime(timerid, 0, &its, NULL) == -1) {
+							perror("timer_settime failed");
 						}
-
-						// Check for data from the Robot Interface Server
-						// if (FD_ISSET(sim_server_fd, &select_set)) {
-						// These are simulator data that should be written to the control program.
-						// You may want to reset the timer here (since the Robot Interface Server is alive).
-						// }
-
-						// Check for data from the control program
-						// if (FD_ISSET(control_fd, &select_set)) {
-						// These are commands from the control program that should be written to the Robot Interface Server.
-						// }
-					
-						// Check for if heartbeat message was lost
-						// if(FD_ISSET(heartbeat_fd, &select_set)){
-						// If heartbeat is lost, take over here.
-						// }
 					}
 
+					// Check for data from the Robot Interface Server
+					// if (FD_ISSET(sim_server_fd, &select_set)) {
+					// These are simulator data that should be written to the control program.
+					// You may want to reset the timer here (since the Robot Interface Server is alive).
+					// }
+
+					// Check for data from the control program
+					// if (FD_ISSET(control_fd, &select_set)) {
+					// These are commands from the control program that should be written to the Robot Interface Server.
+					// }
+
+					// Check for if heartbeat message was lost
+					// if(FD_ISSET(heartbeat_fd[0], &select_set)){
+					// If heartbeat is lost, take over here.
+					// }
 				}
+
 			}
-		} else{
-			printf("CS - Error while forking");
-			return -1;
 		}
+	} else{
+		printf("CS - Error while forking");
+		return -1;
 	}
+}
