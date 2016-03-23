@@ -31,6 +31,8 @@ int timeout_fd[2];
 int heartbeat_fd[2];
 timer_t timerid;
 struct itimerspec its;
+int client;
+struct sigaction act;
 
 int initCS(){
 	struct replica* r_p = (struct replica *) &replica;
@@ -101,73 +103,93 @@ int initTimer(){
 
 
 //WARNING - COMM SERVER AND RIS ARE REVERSED, RIS SHOULD DETECT WHEN CS IS DOWN, NOT THE REVERSE.
-void sig_handler(int signum)
-{
-	if ( signum == SIGURG )
-	{   char c;
-		recv(serverfd, &c, sizeof(c), MSG_OOB);
-		got_reply = ( c == 'Y' );                       //Reply received.
-		write(heartbeat_fd[1], heartbeat_byte, 1);
-		printf("Heartbeat received".);
-	}
-	else if ( signum == SIGALRM )
-		if ( got_reply )
-		{
-			send(serverfd, "?", 1, MSG_OOB);        //Send to server a request to check for uptime.
-			alarm(DELAY);                           //Wait the amount of time of "DELAY".
-			got_reply = 0;
+void sig_handler(int signum){
+	if(signum == SIGURG){
+		char c;
+		recv(client, &c, sizeof(c), MSG_OOB);
+		if(c == '?'){
+			send(client, "Y", 1, MSG_OOB);
 		}
-		else{
-			fprintf(stderr, "Error: Heartbeat Lost\n");
-			write(heartbeat_fd[1], heartsigarbeat_byte, 1);
-			system("../stage_control/basic 192.168.69.140");
-			fprintf(stderr, "Error: How did i get here?\n");
-		}
+	}else if(signum == SIGCHLD){
+		wait(0);
+	}	
 }
 
+void servlet(void){
+	int bytes;
+	char buffer[1024];
+	
+	bzero(&act, sizeof(act));
+	act.sa_handler = sig_handler;
+        act.sa_flags = SA_RESTART;
+        sigaction(SIGURG, &act, 0);     /* connect SIGURG signal */
+        if ( fcntl(client, F_SETOWN, getpid()) != 0 )
+                perror("Can't claim SIGIO and SIGURG");
+        do
+        {
+                bytes = recv(client, buffer, sizeof(buffer), 0);
+                if ( bytes > 0 )
+                        send(client, buffer, bytes, 0);
+        }
+        while ( bytes > 0 );
+        close(client);
+        exit(0);
+
+}
 
 int clientComm(int count, char *strings[]){
+	int sd, client_len;
 	struct sockaddr_in addr;
-	struct sigaction act;
-	int bytes;
-	char line[100];
+	struct sockaddr_in client_address;
+	char clntName[INET_ADDRSTRLEN];
 
-	if(count != 3){
-		printf("Parameters: %s <address> <port>\n", strings[0]);
+	if ( count != 2 )
+	{
+		printf("usage: %s <port>\n", strings[0]);     //Command line input error checking.
 		exit(0);
+		//strings[1] = '1234';
+	}
+	bzero(&act, sizeof(act));
+	act.sa_handler = sig_handler;
+	act.sa_flags = SA_NOCLDSTOP | SA_RESTART;
+	if ( sigaction(SIGCHLD, &act, 0) != 0 ){ perror("sigaction()"); }
+	//Standard server setup.
+	sd = socket(PF_INET, SOCK_STREAM, 0);
+	bzero(&addr, sizeof(addr));
+	addr.sin_family = AF_INET;
+	addr.sin_port = htons(atoi(strings[1]));
+	addr.sin_addr.s_addr = INADDR_ANY;
+	if ( bind(sd, (struct sockaddr*)&addr, sizeof(addr)) != 0 ){ perror("bind()"); }
+	listen(sd, 15);
+	for (;;)
+	{
+		client = accept(sd, (struct sockaddr *) &client_address, &client_len);
+		printf("Client accepted.\n");
 
-		bzero(&act, sizeof(act));
-		act.sa_handler = sig_handler;
-		act.sa_flgas = SA_RESTART;
-		sigaction(SIGURG, &act, 0);
-		sigaction(SIGALRM, &act, 0);
+		if(inet_ntop(AF_INET, &client_address.sin_addr.s_addr, clntName, sizeof(clntName))!=NULL){
+			printf("%s%d\n", clntName, ntohs(client_address.sin_port));
+		}
+		else{
+			printf("Address Not Found\n");
+		}
 
-		serverfd = socket(PF_INET, SOCK_STREAM, 0);
-		//Claim signals for SIGIO and SIGURG.
-		if ( fcntl(serverfd, F_SETOWN, getpid()) != 0 )
-			perror("Can't claim SIGURG and SIGIO");
-		//Standard setup for internet connection.
-		bzero(&addr, sizeof(addr));
-		addr.sin_family = AF_INET;
-		addr.sin_port = htons(atoi(strings[2]));
-		inet_aton(strings[1], &addr.sin_addr);
-		if ( connect(serverfd, (struct sockaddr*)&addr, sizeof(addr)) == 0 )
+		if ( client > 0 )
 		{
-			alarm(DELAY);
-			do
+			if ( fork() == 0 )
 			{
-				gets(line);
-				printf("send [%s]\n", line);
-				send(serverfd, line, strlen(line), 0);
-				bytes = recv(serverfd, line, sizeof(line), 0);
+				close(sd);
+				servlet();
 			}
-			while ( bytes > 0 );
+			else
+				close(client);
 		}
 		else
-			perror("connect failed");
-		close(serverfd);
-		return 0;
+			perror("accept()");
+
 	}
+	close(sd);
+	return 0;
+
 }
 
 int main(int count, char *strings[]){

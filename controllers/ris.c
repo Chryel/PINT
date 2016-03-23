@@ -25,10 +25,6 @@ int heartbeat_fd[2];
 timer_t timerid;
 struct itimerspec its;
 
-int initRIS(){
-	
-}
-
 void timeout_sighandler(int signum){
         write(timeout_fd[1], timeout_byte, 1);
 }
@@ -41,6 +37,11 @@ int initTimer(){
         // Setup the timeout pipe
         if (pipe(timeout_fd) == -1) {
                 perror("Timeout pipe create fail");
+                return -1;
+        }
+	
+        if (pipe(heartbeat_fd) == -1){
+                perror("Heartbeat pipe create fail");
                 return -1;
         }
 
@@ -68,6 +69,30 @@ int initTimer(){
         }
 
         return 0;
+}
+
+void sig_handler(int signum)
+{
+        if ( signum == SIGURG )
+        {   char c;
+                recv(serverfd, &c, sizeof(c), MSG_OOB);
+                got_reply = ( c == 'Y' );                       //Reply received.
+                write(heartbeat_fd[1], heartbeat_byte, 1);
+                printf("Heartbeat received".);
+        }
+        else if ( signum == SIGALRM )
+                if ( got_reply )
+                {
+                        send(serverfd, "?", 1, MSG_OOB);        //Send to server a request to check for uptime.
+                        alarm(DELAY);                           //Wait the amount of time of "DELAY".
+                        got_reply = 0;
+                }
+                else{
+                        fprintf(stderr, "Error: Heartbeat Lost\n");
+                        write(heartbeat_fd[1], heartbeat_byte, 1);
+                        //system("../stage_control/basic 192.168.69.140");
+                        //fprintf(stderr, "Error: How did i get here?\n");
+                }
 }
 
 int serverComm(int count, char *strings[]){
@@ -131,7 +156,9 @@ int main(){
 	pid fork();
 	if(pid >= 0){
 		if(pid = 0){
-			//Launching simulator
+			if(-1 == execv("player", "single_computer.cfg")){
+				printf("RIS Initial Fork");
+			}
 		}
 		else{
 			serverComm(count, strings);
@@ -149,6 +176,8 @@ int main(){
                                 //Check for timeouts
                                 FD_SET(timeout_fd[0], &select_set);
 
+				FD_SET(heartbeat_fd[0], &select_set);
+				
 				// This will wait at least timeout until return. Returns earlier if something has data.
                                 retval = select(FD_SETSIZE, &select_set, NULL, NULL, &select_timeout);
 
